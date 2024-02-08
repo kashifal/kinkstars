@@ -47,19 +47,21 @@
                 Subscribe
               </h3>
             </div>
-            <div className="relative py-3 rounded-md">
-              <button
-                class="absolute rounded-full p-2 bg-primary inset-y-0 right-2 flex items-center text-[#141416]"
-              >
-                <ArrowRightIcon class="w-5 h-5 text-white" />
-              </button>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                class="block w-full px-4 py-3 text-[16px] rounded-full outline-none border border-gray-500"
-                placeholder="Enter your email address"
-              />
+            <div class="relative py-4">
+              <div className=" py-3 rounded-md">
+                <button
+                  class="absolute rounded-full bg-primary p-2 top-[21px] right-2 flex items-center text-[#141416]"
+                >
+                  <ArrowRightIcon class="w-5 h-5 text-white" />
+                </button>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="block w-full px-4 py-3 text-[16px] rounded-full outline-none border border-gray-500"
+                  placeholder="Enter your email address"
+                />
+              </div>
             </div>
             <div>
               <p class="text-[16px] text-[#141416]">
