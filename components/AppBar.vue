@@ -17,7 +17,7 @@
               />
             </div>
             <div
-              class="flex items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
+              class="items-center justify-center flex-1 hidden px-2 md:flex lg:ml-6 lg:justify-end"
             >
               <div class="w-full max-w-lg lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
