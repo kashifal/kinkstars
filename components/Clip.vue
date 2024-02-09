@@ -2,8 +2,8 @@
   <div class="col-span-1 border-b">
     <div class="relative">
       <img
-        class="w-full h-48 rounded-md"
-        src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
+        class="object-cover w-full h-48 rounded-md"
+        :src="model"
         alt="random-img"
       />
       <button
@@ -18,11 +18,7 @@
       </h3>
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-4 py-2">
-          <img
-            class="w-8 h-8 rounded-full"
-            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <img class="w-8 h-8 rounded-full" :src="model" alt="" />
           <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
         </div>
 
@@ -35,4 +31,5 @@
 </template>
 <script setup>
 import { PlayIcon } from "@heroicons/vue/24/solid";
+import model from "../assets/imgs/model.png";
 </script>
