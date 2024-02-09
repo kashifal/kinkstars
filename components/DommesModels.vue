@@ -17,11 +17,7 @@
     >
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -30,11 +26,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -43,11 +35,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -56,11 +44,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -69,11 +53,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -82,11 +62,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -95,11 +71,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -108,11 +80,7 @@
       </div>
       <div class="col-span-1">
         <div class="">
-          <img
-            class="w-full"
-            src="https://fastly.picsum.photos/id/444/200/200.jpg?hmac=j2rJG0CKjM3Pmd7gDrCI5-1pYZIh4tjiScLDa5xS_KU"
-            alt=""
-          />
+          <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
           <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
@@ -124,4 +92,5 @@
 </template>
 <script setup>
 import { ArrowRightIcon } from "@heroicons/vue/24/solid";
+import model from "../assets/imgs/model.png";
 </script>

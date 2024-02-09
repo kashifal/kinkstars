@@ -1,8 +1,21 @@
 <template>
-  <AppBar />
-  <main className="home" style="background: #fafafa">
+  <div v-if="variant === 'default'">
+    <AppBar />
+  </div>
+  <div v-else>
+    <AppBarV2 />
+  </div>
+  <main class="home" style="background: #fafafa">
     <slot />
   </main>
 </template>
 
-<script setup></script>
+<script setup>
+import { defineProps } from "vue";
+const props = defineProps({
+  variant: {
+    type: String,
+    default: "default",
+  },
+});
+</script>

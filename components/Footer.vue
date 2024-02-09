@@ -41,7 +41,7 @@
               </ul>
             </div>
           </div>
-          <div>
+          <div class="w-full">
             <div>
               <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
                 Subscribe
