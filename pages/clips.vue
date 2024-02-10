@@ -1,4 +1,3 @@
-import type AppLayoutVue from '~/layouts/AppLayout.vue';
 <template>
   <AppLayout :variant="'v2'">
     <div class="relative bg overflow-hidden bg-[#141416] px-4 py-20">
