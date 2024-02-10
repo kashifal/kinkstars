@@ -1,6 +1,6 @@
 <template>
   <div
-    class="px-6 space-y-4 py-4 bg-white rounded-[16px]"
+    class="md:px-6 px-2 space-y-4 py-4 bg-white rounded-[16px]"
     style="box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.075)"
   >
     <div class="flex items-center justify-between">
@@ -22,20 +22,20 @@
       </div>
     </div>
     <div>
-      <p class="text-[#141416]">
+      <p class="text-[#141416] md:text-[16px] text-[12px]">
         {{ content }}
       </p>
     </div>
     <div>
       <img
         v-if="img"
-        class="w-full h-[600px] object-cover rounded-[12px] md:rounded-[0px]"
+        class="w-full h-[400px] md:h-[600px] object-cover rounded-[12px] md:rounded-[0px]"
         :src="img"
         alt="post-img"
       />
     </div>
     <div class="flex flex-wrap items-center justify-between gap-4 md:gap-0">
-      <div class="flex items-center gap-8">
+      <div class="flex items-center justify-center gap-8 p-2">
         <button class="flex items-center gap-2">
           <svg
             width="20"
@@ -115,7 +115,7 @@
           <span>Share</span>
         </button>
       </div>
-      <div>
+      <div v-show="sendTipButton">
         <button class="flex items-center gap-2">
           <svg
             width="20"
@@ -208,6 +208,11 @@ const props = defineProps({
   location: {
     type: String,
     required: false,
+  },
+  sendTipButton: {
+    type: Boolean,
+    required: false,
+    default: true,
   },
 });
 </script>
