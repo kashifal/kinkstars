@@ -3,19 +3,19 @@
     <Navbar />
     <HeroSection />
   </div>
-  <div class="px-4 py-10 mx-auto max-w-7xl md:px-0">
+  <div class="px-4 py-10 mx-auto max-w-7xl">
     <LatestClips />
   </div>
   <div class="bg-[#FBFBFB]">
     <BecomeDommes />
   </div>
-  <div class="px-4 py-10 mx-auto max-w-7xl lg:px-0">
+  <div class="px-4 py-10 mx-auto max-w-7xl">
     <VideoClips />
   </div>
   <div class="bg-[#FBFBFB]">
     <Fetishes />
   </div>
-  <div class="px-4 py-10 mx-auto max-w-7xl lg:px-0">
+  <div class="px-4 py-10 mx-auto max-w-7xl">
     <DommesModels />
   </div>
   <CTA />
