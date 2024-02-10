@@ -68,12 +68,22 @@
         <div class="flex items-center justify-end py-2 md:justify-between">
           <div class="flex-wrap items-center hidden gap-4 md:flex">
             <button
-              class="flex items-center gap-2 rounded-full bg-[#E6E8EC] font-semibold px-[24px] py-[10px] text-[#23262F] hover:bg-gray-300"
+              @click="changeTab('Free Posts')"
+              :class="{
+                'bg-gray-100': selectedTab === 'Free Posts',
+                'text-black': selectedTab === 'Free Posts',
+              }"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
             >
               <Squares2X2Icon class="w-5 h-5" />
               Free Posts
             </button>
             <button
+              @click="changeTab('Subs-Only')"
+              :class="{
+                'bg-gray-100': selectedTab === 'Subs-Only',
+                'text-black': selectedTab === 'Subs-Only',
+              }"
               class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
             >
               <LockClosedIcon class="w-5 h-5" />
@@ -120,19 +130,11 @@
         <div class="grid grid-cols-1 gap-10 md:grid-cols-6">
           <div class="col-span-1 space-y-4 md:col-span-4">
             <FilterBar />
-            <div class="space-y-6">
-              <Post
-                v-for="post in posts"
-                :key="post.id"
-                :user="post.user"
-                :location="post.location"
-                :content="post.content"
-                :likes="post.likes"
-                :comments="post.comments"
-                :date="post.date"
-                :img="post.img"
-                :sendTipButton="false"
-              />
+            <div v-if="selectedTab === 'Free Posts'">
+              <FreePosts />
+            </div>
+            <div v-if="selectedTab === 'Subs-Only'">
+              <SubsOnly />
             </div>
           </div>
           <div class="col-span-1 space-y-4 md:col-span-2">
@@ -161,42 +163,12 @@ import {
   VideoCameraIcon,
 } from "@heroicons/vue/24/solid";
 import AppLayout from "~/layouts/AppLayout.vue";
-const posts = [
-  {
-    id: 1,
-    user: {
-      id: 1,
-      name: "Sofia Guirno",
-      avatar:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      date: "20 hours ago",
-    },
-    content: `It's never too late to start something new. Start easy. Consuming the
-        minds and souls of men. Whether you’re a complete beginner or you want
-        to step up your routine, get the full studio experience at home with
-        thousands of classes for body, mind, and spirit.`,
-    img: "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg",
-    likes: 10,
-    comments: 5,
-    location: "Tokyo, Japan",
-  },
-  {
-    id: 1,
-    user: {
-      id: 1,
-      name: "Sofia Guirno",
-      avatar:
-        "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-      date: "20 hours ago",
-    },
-    content: `It's never too late to start something new. Start easy. Consuming the
-        minds and souls of men. Whether you’re a complete beginner or you want
-        to step up your routine, get the full studio experience at home with
-        thousands of classes for body, mind, and spirit.`,
-    img: "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg",
-    likes: 10,
-    comments: 5,
-    location: "Tokyo, Japan",
-  },
-];
+
+import { ref } from "vue";
+
+const selectedTab = ref("Free Posts");
+
+const changeTab = (tab) => {
+  selectedTab.value = tab;
+};
 </script>
