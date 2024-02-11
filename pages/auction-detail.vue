@@ -94,114 +94,37 @@
           </div>
           <!-- Product Info here -->
           <div class="">
-            <p class="font-normal text-sm text-[#6B7280]">Selena Guirno</p>
-            <h1 class="text-[32px] font-semibold">
-              T-shirt Product bu Selena Augnant
-            </h1>
-            <p class="text-[#95909E] text-[14px]">
-              Silver leather glitter lace-up shoes from Giuseppe Zanotti Design
-              featuring a pointed toe, a brand embossed insole and a flat heel.
-            </p>
+            <h1 class="text-[32px] font-semibold">Auction Thing 1</h1>
 
-            <!-- Price -->
-            <div class="text-[24px] mt-12 font-bold">
-              <h1>$430,00</h1>
+            <!-- Time -->
+            <div
+              class="px-6 my-6 items-center gap-6 py-2 bg-[#E6E8EC] rounded-[12px] inline-flex"
+            >
+              <div class="flex items-center flex-col">
+                <h1 class="text-[18px] font-semibold">32</h1>
+                <h1 class="text-[14px] text-[#6B7280] font-semibold">Days</h1>
+              </div>
+              <span>:</span>
+              <div class="flex items-center flex-col">
+                <h1 class="text-[18px] font-semibold">10</h1>
+                <h1 class="text-[14px] text-[#6B7280] font-semibold">Hours</h1>
+              </div>
+              <span>:</span>
+              <div class="flex items-center flex-col">
+                <h1 class="text-[18px] font-semibold">10</h1>
+                <h1 class="text-[14px] text-[#6B7280] font-semibold">
+                  Minutes
+                </h1>
+              </div>
             </div>
 
-            <!-- Colors Radio -->
-            <RadioGroup class="my-8" v-model="selectedColor">
-              <RadioGroupLabel
-                class="block text-[12px] font-medium leading-6 text-[#3D3D3D]"
-                >COLOUR</RadioGroupLabel
-              >
-              <div class="mt-2 flex items-center space-x-3">
-                <RadioGroupOption
-                  as="template"
-                  v-for="color in colors"
-                  :key="color.name"
-                  :value="color"
-                  v-slot="{ active, checked }"
-                >
-                  <div
-                    :class="[
-                      color.selectedColor,
-                      active && checked ? 'ring ring-offset-1' : '',
-                      !active && checked ? 'ring-2' : '',
-                      'relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 focus:outline-none',
-                    ]"
-                  >
-                    <RadioGroupLabel as="span" class="sr-only">{{
-                      color.name
-                    }}</RadioGroupLabel>
-                    <span
-                      aria-hidden="true"
-                      :class="[
-                        color.bgColor,
-                        'h-8 w-8 rounded-full border border-black border-opacity-10',
-                      ]"
-                    />
-                  </div>
-                </RadioGroupOption>
-              </div>
-            </RadioGroup>
+            <!-- Address -->
+            <div class="flex flex-col my-6 border-b pb-6 space-y-3">
+              <h1 class="text-[#6B7280] text-[16px] font-normal">
+                Bargain Hunt Auctions
+              </h1>
 
-            <!-- Sizes -->
-            <div>
-              <div class="flex items-center justify-between">
-                <h2
-                  class="block text-[12px] font-medium leading-6 text-[#3D3D3D]"
-                >
-                  UK SIZES
-                </h2>
-              </div>
-
-              <RadioGroup v-model="mem" class="mt-2">
-                <RadioGroupLabel class="sr-only"
-                  >Choose a memory option</RadioGroupLabel
-                >
-                <div
-                  class="grid grid-cols-7 sm:grid-cols-12 gap-3 lg:grid-cols-9 lg:grid-cols-12"
-                >
-                  <RadioGroupOption
-                    as="template"
-                    v-for="option in memoryOptions"
-                    :key="option.name"
-                    :value="option"
-                    :disabled="!option.inStock"
-                    v-slot="{ active, checked }"
-                  >
-                    <div
-                      :class="[
-                        option.inStock
-                          ? 'cursor-pointer focus:outline-none'
-                          : 'cursor-not-allowed opacity-25',
-                        active ? 'ring-2 ring-[#FDC157] ring-offset-2' : '',
-                        checked
-                          ? 'bg-[#FDC157] text-white hover:bg-[#FDC157]'
-                          : 'ring-1 ring-inset ring-gray-300 bg-white text-gray-900 hover:bg-gray-50',
-                        'flex items-center justify-center rounded-full h-10 w-10  text-sm font-semibold uppercase sm:flex-1',
-                      ]"
-                    >
-                      <RadioGroupLabel as="span">{{
-                        option.name
-                      }}</RadioGroupLabel>
-                    </div>
-                  </RadioGroupOption>
-                </div>
-              </RadioGroup>
-            </div>
-
-            <!-- Buttons -->
-            <div class="my-8 flex flex-wrap items-center gap-4">
-              <button
-                class="px-10 mx-auto sm:mx-0 whitespace-nowrap py-2 bg-black rounded-lg border-2 border-black text-white font-bold"
-              >
-                Buy Now
-              </button>
-
-              <button
-                class="md:px-10 px-10 mx-auto sm:mx-0 whitespace-nowrap py-2 flex items-center border-2 transition-all group hover:text-white hover:bg-black hover:border-black border-[#E4E7EC] gap-2 bg-white rounded-lg text-black font-bold"
-              >
+              <div class="flex items-center gap-2">
                 <svg
                   width="24"
                   height="24"
@@ -209,35 +132,71 @@
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_34_54832)">
+                  <g clip-path="url(#clip0_34_52603)">
                     <path
-                      d="M12.0004 21.9999L2.80843 12.8079C0.62843 10.2399 0.74243 6.3879 3.16143 3.9679C4.32144 2.80791 5.87717 2.12945 7.51654 2.06861C9.1559 2.00778 10.7576 2.56908 12.0004 3.6399C13.242 2.56908 14.8423 2.00699 16.4808 2.06627C18.1192 2.12554 19.6748 2.80181 20.8357 3.95956C21.9966 5.1173 22.6771 6.67099 22.7408 8.30929C22.8046 9.94758 22.2469 11.5494 21.1794 12.7939L12.0004 21.9999ZM19.6624 11.4909C20.4013 10.6293 20.7872 9.52034 20.743 8.3862C20.6988 7.25206 20.2276 6.17653 19.4239 5.3751C18.6202 4.57367 17.5433 4.10555 16.4091 4.06453C15.2748 4.02351 14.1669 4.41262 13.3074 5.1539L12.0004 6.2819L10.6934 5.1539C9.83393 4.41262 8.72607 4.02351 7.59181 4.06453C6.45755 4.10555 5.38068 4.57367 4.57698 5.3751C3.77328 6.17653 3.3021 7.25206 3.25786 8.3862C3.21363 9.52034 3.59959 10.6293 4.33843 11.4909L4.45243 11.6229L12.0004 19.1719L19.5484 11.6229L19.6624 11.4909Z"
-                      fill="currentcolor"
+                      d="M17 3H21C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V20C22 20.2652 21.8946 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H3C2.73478 21 2.48043 20.8946 2.29289 20.7071C2.10536 20.5196 2 20.2652 2 20V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H7V1H9V3H15V1H17V3ZM20 9V5H17V7H15V5H9V7H7V5H4V9H20ZM20 11H4V19H20V11ZM6 13H11V17H6V13Z"
+                      fill="black"
                     />
                   </g>
                   <defs>
-                    <clipPath id="clip0_34_54832">
+                    <clipPath id="clip0_34_52603">
                       <rect width="24" height="24" fill="white" />
                     </clipPath>
                   </defs>
                 </svg>
+                <p class="text-[16px] font-medium">September 8, 2022</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11 17.938C8.98271 17.6813 7.13885 16.6661 5.84319 15.0988C4.54752 13.5314 3.89728 11.5295 4.02462 9.49997C4.15196 7.47041 5.04733 5.56549 6.52874 4.17238C8.01016 2.77927 9.96645 2.00252 12 2C14.036 1.99849 15.9961 2.77334 17.4807 4.16668C18.9653 5.56002 19.8628 7.467 19.9903 9.49904C20.1178 11.5311 19.4657 13.5353 18.1669 15.1033C16.868 16.6712 15.0203 17.685 13 17.938V20.012C16.946 20.104 20 20.735 20 21.5C20 22.328 16.418 23 12 23C7.582 23 4 22.328 4 21.5C4 20.735 7.054 20.104 11 20.012V17.938ZM12 16C13.5913 16 15.1174 15.3679 16.2426 14.2426C17.3679 13.1174 18 11.5913 18 10C18 8.4087 17.3679 6.88258 16.2426 5.75736C15.1174 4.63214 13.5913 4 12 4C10.4087 4 8.88258 4.63214 7.75736 5.75736C6.63214 6.88258 6 8.4087 6 10C6 11.5913 6.63214 13.1174 7.75736 14.2426C8.88258 15.3679 10.4087 16 12 16ZM12 12C11.4696 12 10.9609 11.7893 10.5858 11.4142C10.2107 11.0391 10 10.5304 10 10C10 9.46957 10.2107 8.96086 10.5858 8.58579C10.9609 8.21072 11.4696 8 12 8C12.5304 8 13.0391 8.21072 13.4142 8.58579C13.7893 8.96086 14 9.46957 14 10C14 10.5304 13.7893 11.0391 13.4142 11.4142C13.0391 11.7893 12.5304 12 12 12Z"
+                    fill="black"
+                  />
+                </svg>
 
-                Like
-              </button>
+                <p class="text-[16px] font-medium">Thornleigh, Australia</p>
+              </div>
             </div>
 
-            <!-- Arrows -->
-            <div
-              class="w-full flex items-center justify-between gap-4 bottom-0 right-0"
-            >
-              <button @click="slideToPrev" class="flex items-center gap-3">
-                <ArrowLeftIcon class="w-5 h-5" />
-                <span>Previous items</span>
-              </button>
-              <button @click="slideToNext" class="flex items-center gap-3">
-                <span>Next items</span>
-                <ArrowRightIcon class="w-5 h-5" />
-              </button>
+            <!-- Buttons -->
+            <div class="my-8">
+              <h1 class="text-[16px] font-semibold">Place a bid</h1>
+              <div
+                class="flex flex-wrap mt-2 items-start sm:items-center gap-4"
+              >
+                <input
+                  placeholder="$50"
+                  class="px-2 sm:max-w-sm sm:w-full sm:mx-0 whitespace-nowrap py-2 bg-white rounded-xl border-2 border-[#6B7280] text-black font-normal"
+                />
+
+                <button
+                  class="md:px-6 px-6 sm:mx-0 whitespace-nowrap py-2 flex items-center border-2 transition-all group hover:text-white hover:bg-black hover:border-black border-black gap-2 bg-black rounded-lg text-white font-bold"
+                >
+                  Place a bid
+                </button>
+              </div>
+              <a class="flex my-3 items-center gap-2" href="#">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.6667 6.66659H13.3333C13.5101 6.66659 13.6797 6.73682 13.8047 6.86185C13.9298 6.98687 14 7.15644 14 7.33325V13.9999C14 14.1767 13.9298 14.3463 13.8047 14.4713C13.6797 14.5963 13.5101 14.6666 13.3333 14.6666H2.66667C2.48986 14.6666 2.32029 14.5963 2.19526 14.4713C2.07024 14.3463 2 14.1767 2 13.9999V7.33325C2 7.15644 2.07024 6.98687 2.19526 6.86185C2.32029 6.73682 2.48986 6.66659 2.66667 6.66659H3.33333V5.99992C3.33333 5.38708 3.45404 4.78025 3.68856 4.21406C3.92308 3.64788 4.26683 3.13343 4.70017 2.70009C5.13351 2.26675 5.64796 1.923 6.21414 1.68848C6.78033 1.45396 7.38716 1.33325 8 1.33325C8.61284 1.33325 9.21967 1.45396 9.78586 1.68848C10.352 1.923 10.8665 2.26675 11.2998 2.70009C11.7332 3.13343 12.0769 3.64788 12.3114 4.21406C12.546 4.78025 12.6667 5.38708 12.6667 5.99992V6.66659ZM11.3333 6.66659V5.99992C11.3333 5.11586 10.9821 4.26802 10.357 3.6429C9.7319 3.01777 8.88406 2.66659 8 2.66659C7.11595 2.66659 6.2681 3.01777 5.64298 3.6429C5.01786 4.26802 4.66667 5.11586 4.66667 5.99992V6.66659H11.3333ZM7.33333 9.33325V11.9999H8.66667V9.33325H7.33333Z"
+                    fill="black"
+                  />
+                </svg>
+
+                <span class="text-[12px] font-normal">Secure bidding</span></a
+              >
             </div>
           </div>
         </SplideSlide>
@@ -246,9 +205,9 @@
 
     <div class="mx-auto max-w-7xl px-4">
       <!-- Tabs -->
-      <ProductPageTabs />
+      <AuctionDetailPageTabs />
       <div class="px-4 py-10 mx-auto max-w-7xl">
-        <ProductPageProducts />
+        <AuctionDetailPageAuctions />
       </div>
     </div>
   </AppLayout>
