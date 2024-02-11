@@ -56,6 +56,7 @@
                         v-slot="{ selected }"
                       >
                         <span class="sr-only">{{ image.name }}</span>
+
                         <span
                           class="absolute inset-0 overflow-hidden rounded-md"
                         >
@@ -67,7 +68,9 @@
                         </span>
                         <span
                           :class="[
-                            selected ? 'ring-indigo-500' : 'ring-transparent',
+                            selected
+                              ? 'ring-primary bg-primary/20'
+                              : 'ring-transparent',
                             'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2',
                           ]"
                           aria-hidden="true"
