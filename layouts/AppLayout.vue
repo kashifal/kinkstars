@@ -1,5 +1,5 @@
 <template>
-  <div :class="showOnMobile ? 'block' : 'hidden'">
+  <div :class="showOnMobile ? 'block' : 'hidden md:block'">
     <AppBar v-if="variant === 'default'" />
     <AppBarV2 v-else />
   </div>

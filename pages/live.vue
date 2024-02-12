@@ -50,12 +50,54 @@
       </div>
 
       <!-- Chatbox -->
-      <div class="h-full flex flex-col">
+      <div class="h-full flex flex-col min-h-0">
         <!-- Chat -->
         <div
           class="h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
         >
           <!-- Message -->
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
           <div class="msg">
             <img src="https://placehold.co/32x32" alt="" />
             <div class="wrapper">
@@ -78,7 +120,7 @@
               <Emoji />
             </button>
           </div>
-          <div class="mt-3 flex gap-x-2">
+          <div class="flex gap-x-2">
             <button
               class="w-10 h-10 flex flex-col items-center justify-between"
             >
@@ -106,7 +148,7 @@
         <video class="rounded-2xl" controls>
           <source src="https://www.bigbuckbunny.org/" type="video/mp4" />
         </video>
-        <div>
+        <div class="flex flex-col gap-y-5">
           <div class="flex justify-between items-center gap-x-4">
             <img src="https://placehold.co/60x60" alt="" />
             <div class="w-full flex flex-col">
@@ -129,22 +171,22 @@
               </button>
             </div>
           </div>
-        </div>
-        <!-- About -->
-        <div class="p-4 flex flex-col gap-y-5 bg-white rounded-2xl shadow">
-          <div class="text-[#6B7280]">About Sofia</div>
-          <div class="flex gap-x-5">
-            <div class="text-center">
-              <div class="font-bold text-xl">492</div>
-              <div class="text-[#6B7280]">Followers</div>
-            </div>
-            <div class="text-center">
-              <div class="font-bold text-xl">329</div>
-              <div class="text-[#6B7280]">Followers</div>
-            </div>
-            <div class="text-center">
-              <div class="font-bold text-xl">32</div>
-              <div class="text-[#6B7280]">Subscribers</div>
+          <!-- About -->
+          <div class="p-4 flex flex-col gap-y-5 bg-white rounded-2xl shadow">
+            <div class="text-[#6B7280]">About Sofia</div>
+            <div class="flex gap-x-5">
+              <div class="text-center">
+                <div class="font-bold text-xl">492</div>
+                <div class="text-[#6B7280]">Followers</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-xl">329</div>
+                <div class="text-[#6B7280]">Followers</div>
+              </div>
+              <div class="text-center">
+                <div class="font-bold text-xl">32</div>
+                <div class="text-[#6B7280]">Subscribers</div>
+              </div>
             </div>
           </div>
         </div>
@@ -172,12 +214,20 @@
           </div>
         </div>
         <!-- Chatbox -->
-        <div class="h-full flex flex-col">
-          <!-- Chat -->
+        <div class="h-full flex flex-col min-h-0">
+          <!-- Chats -->
           <div
-            class="h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
+            class=" h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
           >
             <!-- Message -->
+            <div class="msg">
+              <img src="https://placehold.co/32x32" alt="" />
+              <div class="wrapper">
+                <div class="name">Username</div>
+                <div class="msg">Coment</div>
+              </div>
+            </div>
+
             <div class="msg">
               <img src="https://placehold.co/32x32" alt="" />
               <div class="wrapper">
