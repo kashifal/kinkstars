@@ -2,7 +2,7 @@
   <div class="min-h-full">
     <Disclosure as="nav" class="bg-[#141416] shadow-sm" v-slot="{ open }">
       <div class="px-12 sm:px-6 lg:px-16">
-        <div class="flex justify-between h-16">
+        <div class="flex justify-between w-full h-16">
           <div class="flex items-center gap-4">
             <div class="flex items-center flex-shrink-0">
               <img
@@ -17,9 +17,9 @@
               />
             </div>
             <div
-              class="items-center justify-center flex-1 hidden px-2 xl:flex lg:ml-6 lg:justify-end"
+              class="flex items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
             >
-              <div class="w-full max-w-lg lg:max-w-xs">
+              <div class="hidden w-full max-w-lg xl:block lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
                 <div class="relative text-gray-400 focus-within:text-gray-600">
                   <div
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div
-            class="justify-center flex-1 hidden sm:-my-px sm:ml-6 md:flex sm:space-x-8"
+            class="justify-center flex-1 hidden w-full sm:-my-px sm:ml-6 md:flex sm:space-x-8"
           >
             <a
               v-for="item in navigation"
@@ -58,7 +58,7 @@
             </a>
           </div>
           <div
-            class="items-center justify-end flex-1 hidden sm:ml-6 sm:flex sm:items-center"
+            class="items-center justify-end hidden sm:ml-6 sm:flex sm:items-center"
           >
             <div class="flex items-center gap-4 px-4">
               <button

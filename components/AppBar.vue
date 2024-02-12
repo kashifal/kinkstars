@@ -58,7 +58,7 @@
             </a>
           </div>
           <div
-            class="items-center justify-end flex-1 hidden sm:ml-6 sm:flex sm:items-center"
+            class="items-center justify-end hidden sm:ml-6 sm:flex sm:items-center"
           >
             <div class="flex items-center gap-4 px-4">
               <button
