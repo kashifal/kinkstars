@@ -17,7 +17,7 @@
               />
             </div>
             <div
-              class="items-center justify-center flex-1 hidden px-2 md:flex lg:ml-6 lg:justify-end"
+              class="items-center justify-center flex-1 hidden px-2 lg:flex lg:ml-6 lg:justify-end"
             >
               <div class="w-full max-w-lg lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div
-            class="justify-center flex-1 hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8"
+            class="justify-center flex-1 hidden sm:-my-px sm:ml-6 md:flex sm:space-x-8"
           >
             <a
               v-for="item in navigation"
