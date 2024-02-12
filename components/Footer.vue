@@ -10,7 +10,9 @@
             how, and this is an easy step to make it happen
           </p>
         </div>
-        <div class="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
+        <div
+          class="grid grid-cols-1 gap-8 mt-16 md:grid-cols-2 xl:col-span-2 xl:mt-0"
+        >
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
@@ -41,7 +43,7 @@
               </ul>
             </div>
           </div>
-          <div class="w-full">
+          <div class="col-span-1">
             <div>
               <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
                 Subscribe
