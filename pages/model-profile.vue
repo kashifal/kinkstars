@@ -1,4 +1,5 @@
 <template>
+  <StartLiveStream />
   <AppLayout>
     <div class="bg-white">
       <div class="px-4 pt-10 pb-4 mx-auto space-y-8 max-w-7xl">
@@ -214,12 +215,9 @@
 import {
   ArrowTrendingUpIcon,
   ChartPieIcon,
-  CurrencyDollarIcon,
   EllipsisHorizontalIcon,
-  PencilIcon,
   PencilSquareIcon,
   SparklesIcon,
-  PlusIcon,
 } from "@heroicons/vue/24/outline";
 import {
   LockClosedIcon,
