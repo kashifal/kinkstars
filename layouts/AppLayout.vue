@@ -1,9 +1,7 @@
 <template>
-  <div v-if="variant === 'default'">
-    <AppBar />
-  </div>
-  <div v-else>
-    <AppBarV2 />
+  <div :class="showOnMobile ? 'block' : 'hidden'">
+    <AppBar v-if="variant === 'default'" />
+    <AppBarV2 v-else />
   </div>
   <main class="home" style="background: #fafafa">
     <slot />
@@ -16,6 +14,10 @@ const props = defineProps({
   variant: {
     type: String,
     default: "default",
+  },
+  showOnMobile: {
+    type: Boolean,
+    default: true,
   },
 });
 </script>

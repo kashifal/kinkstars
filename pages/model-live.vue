@@ -1,11 +1,110 @@
 <template>
-  <AppLayout>
+  <!-- Mobile Version -->
+  <div class="block md:hidden relative h-screen">
+    <video class="absolute top-0 left-0 w-full h-full" autoplay muted>
+      <source
+        id="mp4"
+        src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+        type="video/mp4"
+      />
+    </video>
     <div
-      class="h-[calc(100vh_-_64px)] overflow-y-auto p-5 flex gap-x-5 mx-auto"
+      class="px-4 py-5 flex flex-col absolute top-0 left-0 w-full h-full text-white backdrop-brightness-50"
+    >
+      <!-- Header -->
+      <div class="flex justify-between items-center flex-wrap gap-y-1">
+        <div class="flex gap-x-3">
+          <img
+            class="rounded-full"
+            src="https://placeholder.co/32x32"
+            width="32"
+            height="32"
+            alt=""
+          />
+          <div class="flex flex-col justify-between">
+            <div class="text-sm font-bold">Sofia Gurino</div>
+            <div class="text-xs font-medium">Dominatrix</div>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div class="flex gap-x-1">
+            <img src="https://placeholder.co/28x30" alt="" />
+            <img src="https://placeholder.co/28x30" alt="" />
+            <img src="https://placeholder.co/28x30" alt="" />
+          </div>
+          <Right class="mr-2" />
+          <Cross class="mr-3" />
+        </div>
+      </div>
+      <div class="mt-3 flex gap-x-3">
+        <button
+          class="w-20 h-7 rounded-full bg-[#35383F99] flex justify-center items-center gap-x-2"
+        >
+          <ThreeUser /> <span class="text-xs font-semibold">3.6K</span>
+        </button>
+        <button
+          class="w-20 h-7 rounded-full bg-[#35383F99] flex justify-center items-center gap-x-2"
+        >
+          <span class="text-xs font-semibold">3:07:48</span>
+        </button>
+      </div>
+
+      <!-- Chatbox -->
+      <div class="h-full flex flex-col">
+        <!-- Chat -->
+        <div
+          class="h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
+        >
+          <!-- Message -->
+          <div class="msg">
+            <img src="https://placehold.co/32x32" alt="" />
+            <div class="wrapper">
+              <div class="name">Username</div>
+              <div class="msg">Coment</div>
+            </div>
+          </div>
+        </div>
+        <!-- New Chat -->
+        <div class="h-12 flex">
+          <div class="w-full relative">
+            <input
+              class="w-full text-sm text-[#495057] px-4 py-[13px] bg-[#FBFBFB] rounded-xl outline-none"
+              type="text"
+              placeholder="Your comment..."
+            />
+            <button
+              class="absolute w-fit h-fit top-1/2 bottom-1/2 right-4 -translate-y-1/2"
+            >
+              <Emoji />
+            </button>
+          </div>
+          <div class="mt-3 flex gap-x-2">
+            <button
+              class="w-10 h-10 flex flex-col items-center justify-between"
+            >
+              <QNA />
+              <span class="text-[10px] font-medium"> QnA </span>
+            </button>
+            <button
+              class="w-10 h-10 flex flex-col items-center justify-between"
+            >
+              <Share />
+              <span class="text-[10px] font-medium"> 5.7K </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Desktop version -->
+  <AppLayout :show-on-mobile="false">
+    <div
+      class="hidden md:flex h-[calc(100vh_-_64px)] overflow-y-auto p-5 gap-x-5 mx-auto"
     >
       <div class="w-3/4 flex flex-col gap-y-5">
-        <video class=" rounded-2xl" controls>
-          <source src="https://www.bigbuckbunny.org/" />
+        <video class="rounded-2xl" controls>
+          <source src="https://www.bigbuckbunny.org/" type="video/mp4" />
         </video>
         <div>
           <div class="flex justify-between items-center gap-x-4">
@@ -130,6 +229,8 @@ import Share from "~/components/Icons/Share.vue";
 import Emoji from "~/components/Icons/Emoji.vue";
 import DollarCircle from "~/components/Icons/DollarCircle.vue";
 import ShareSocial from "~/components/Icons/ShareSocial.vue";
+import Cross from "~/components/Icons/Cross.vue";
+import ThreeUser from "~/components/Icons/ThreeUser.vue";
 </script>
 <style scoped lang="postcss">
 .msg {
@@ -143,7 +244,7 @@ import ShareSocial from "~/components/Icons/ShareSocial.vue";
       @apply text-sm font-medium;
     }
     > .msg {
-      @apply text-xs text-[#6B7280];
+      @apply text-xs md:text-[#6B7280];
     }
   }
 }
