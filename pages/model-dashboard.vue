@@ -73,6 +73,7 @@
                 <EllipsisVerticalIcon class="w-6 h-6" />
               </button>
             </div>
+
             <div class="flex items-center justify-between py-8">
               <div>
                 <h2 class="text-[#141416] text-[36px] font-semibold">
@@ -91,6 +92,9 @@
                   <span class="text-green-500">12.4%</span>
                 </span>
               </div>
+            </div>
+            <div>
+              <Chart />
             </div>
           </div>
           <div

@@ -15,7 +15,7 @@
                 class="block w-6 h-6"
                 aria-hidden="true"
               />
-              <XMarkIcon v-else class="block w-6 h-6" aria-hidden="true" />
+              <XMarkIcon v-else class="block w-6 h- 6" aria-hidden="true" />
             </DisclosureButton>
           </div>
           <div class="flex items-center flex-shrink-0">
@@ -23,26 +23,26 @@
           </div>
         </div>
         <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">
-          <a
+          <NuxtLink
             v-for="item in navigation"
             :key="item.name"
-            :href="item.href"
+            :to="item.href"
             :class="[
               item.current ? 'text-primary' : 'text-gray-300  hover:text-white',
               'rounded-md px-3 py-2 text-sm font-medium',
             ]"
             :aria-current="item.current ? 'page' : undefined"
-            >{{ item.name }}</a
+            >{{ item.name }}</NuxtLink
           >
         </div>
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <button
-              type="button"
+            <NuxtLink
+              to="/login"
               class="relative inline-flex items-center gap-x-1.5 rounded-md bg-primary px-6 py-2 text-sm font-semibold text-white shadow-sm"
             >
               Join Now
-            </button>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -73,11 +73,11 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import logo from "../assets/imgs/logo.png";
 const navigation = [
-  { name: "Becoming a Dommes?", href: "#", current: false },
-  { name: "Home", href: "#", current: true },
-  { name: "Dommes", href: "#", current: false },
-  { name: "Store", href: "#", current: false },
-  { name: "Clip", href: "#", current: false },
-  { name: "About Us", href: "#", current: false },
+  { name: "Becoming a Dommes?", href: "/become-a-dommes", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Dommes", href: "/dommes", current: false },
+  { name: "Store", href: "/store", current: false },
+  { name: "Clip", href: "/clips", current: false },
+  { name: "About Us", href: "/about", current: false },
 ];
 </script>

@@ -3,7 +3,7 @@
     <Disclosure as="nav" class="bg-white shadow-sm" v-slot="{ open }">
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between h-16">
-          <div class="flex items-center gap-4">
+          <div class="flex relative items-center gap-4">
             <div class="flex items-center flex-shrink-0">
               <img
                 class="block w-auto h-8 lg:hidden"
@@ -17,7 +17,7 @@
               />
             </div>
             <div
-              class="items-center justify-center flex-1 hidden px-2 md:flex lg:ml-6 lg:justify-end"
+              class="absolute left-36 w-56 items-center justify-center flex-1 hidden px-2 xl:flex lg:ml-6 lg:justify-end"
             >
               <div class="w-full max-w-lg lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div
-            class="justify-center flex-1 hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8"
+            class="justify-center flex-1 hidden sm:-my-px sm:ml-6 lg:flex sm:space-x-8"
           >
             <a
               v-for="item in navigation"
@@ -58,7 +58,7 @@
             </a>
           </div>
           <div
-            class="items-center justify-end flex-1 hidden sm:ml-6 sm:flex sm:items-center"
+            class="items-center justify-end hidden sm:ml-6 lg:flex sm:items-center"
           >
             <div class="flex items-center gap-4 px-4">
               <button
@@ -85,7 +85,7 @@
                 class="relative p-1 text-gray-400 bg-white rounded-full hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               >
                 <span class="absolute -inset-1.5" />
-                <span class="sr-only">View notifications</span>
+                <span class="sr-only">View notifications - move to next</span>
                 <svg
                   width="18"
                   height="19"
@@ -109,7 +109,7 @@
                   <span class="absolute -inset-1.5" />
                   <span class="sr-only">Open user menu</span>
                   <img
-                    class="w-8 h-8 rounded-full"
+                    class="w-8 shrink-0 h-8 rounded-full"
                     :src="user.imageUrl"
                     alt=""
                   />
@@ -145,7 +145,7 @@
               </transition>
             </Menu>
           </div>
-          <div class="flex items-center -mr-2 sm:hidden">
+          <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
               class="relative inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -154,7 +154,7 @@
               <span class="sr-only">Open main menu</span>
               <Bars3Icon
                 v-if="!open"
-                class="block w-6 h-6"
+                class="block w-6 h-6 text-black"
                 aria-hidden="true"
               />
               <XMarkIcon v-else class="block w-6 h-6" aria-hidden="true" />
@@ -236,7 +236,7 @@ import {
   XMarkIcon,
   MagnifyingGlassIcon,
 } from "@heroicons/vue/24/outline";
-import logo from "../assets/imgs/logo-black.png";
+import logo from "../assets/imgs/Logo.svg";
 
 const user = {
   name: "Tom Cook",
