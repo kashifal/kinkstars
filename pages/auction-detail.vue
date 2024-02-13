@@ -1,6 +1,7 @@
 <template>
   <AppLayout>
     <div class="relative">
+      <Breadcrumb :breadLinks="breadLinks" />
       <Splide
         ref="splide"
         class="splide max-w-7xl mx-auto px-4 py-32"
@@ -210,6 +211,7 @@
         <AuctionDetailPageAuctions />
       </div>
     </div>
+    <Footer />
   </AppLayout>
 </template>
 
@@ -290,7 +292,23 @@ const product = {
     // More sections...
   ],
 };
-
+const breadLinks = [
+  {
+    name: "Home",
+    link: "#",
+    current: false,
+  },
+  {
+    name: "Store",
+    link: "#",
+    current: false,
+  },
+  {
+    name: "Auction Thing 1",
+    link: "#",
+    current: true,
+  },
+];
 const colors = [
   { name: "Pink", bgColor: "bg-pink-500", selectedColor: "ring-pink-500" },
   {
