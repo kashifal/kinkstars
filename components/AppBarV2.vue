@@ -236,7 +236,7 @@ import {
   XMarkIcon,
   MagnifyingGlassIcon,
 } from "@heroicons/vue/24/outline";
-import logo from "../assets/imgs/logo.png";
+import logo from "../assets/imgs/LogoWhite.svg";
 
 const user = {
   name: "Tom Cook",
