@@ -3,7 +3,7 @@
     <Disclosure as="nav" class="bg-[#141416] shadow-sm" v-slot="{ open }">
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between w-full h-16">
-          <div class="flex items-center gap-4">
+          <div class="flex relative items-center gap-4">
             <div class="flex items-center flex-shrink-0">
               <img
                 class="block w-auto h-8 lg:hidden"
@@ -17,7 +17,7 @@
               />
             </div>
             <div
-              class="flex items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
+              class="flex absolute left-36 w-[56px] items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
             >
               <div class="hidden w-full max-w-lg xl:block lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
@@ -29,7 +29,7 @@
                   </div>
                   <input
                     id="search"
-                    class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-100 bg-[#000000]"
+                    class="block w-56 border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-100 bg-[#000000]"
                     placeholder="Search"
                     type="search"
                     name="search"
@@ -39,7 +39,7 @@
             </div>
           </div>
           <div
-            class="justify-center flex-1 hidden w-full sm:-my-px sm:ml-6 md:flex sm:space-x-8"
+            class="justify-center flex-1 hidden w-full sm:-my-px sm:ml-6 lg:flex sm:space-x-8"
           >
             <a
               v-for="item in navigation"
@@ -58,7 +58,7 @@
             </a>
           </div>
           <div
-            class="items-center justify-end hidden sm:ml-6 sm:flex sm:items-center"
+            class="items-center justify-end hidden sm:ml-6 lg:flex sm:items-center"
           >
             <div class="flex items-center gap-4 px-4">
               <button
@@ -145,7 +145,7 @@
               </transition>
             </Menu>
           </div>
-          <div class="flex items-center -mr-2 sm:hidden">
+          <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
               class="relative inline-flex items-center justify-center p-2 text-gray-100 bg-[#141416] rounded-md hover:bg-gray-900 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -163,7 +163,7 @@
         </div>
       </div>
 
-      <DisclosurePanel class="sm:hidden">
+      <DisclosurePanel class="md:hidden">
         <div class="pt-2 pb-3 space-y-1">
           <DisclosureButton
             v-for="item in navigation"

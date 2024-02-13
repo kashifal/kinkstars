@@ -109,7 +109,7 @@
                   <span class="absolute -inset-1.5" />
                   <span class="sr-only">Open user menu</span>
                   <img
-                    class="w-8 h-8 rounded-full"
+                    class="w-8 shrink-0 h-8 rounded-full"
                     :src="user.imageUrl"
                     alt=""
                   />
@@ -145,7 +145,7 @@
               </transition>
             </Menu>
           </div>
-          <div class="flex items-center -mr-2 sm:hidden">
+          <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
               class="relative inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
@@ -154,7 +154,7 @@
               <span class="sr-only">Open main menu</span>
               <Bars3Icon
                 v-if="!open"
-                class="block w-6 h-6"
+                class="block w-6 h-6 text-white"
                 aria-hidden="true"
               />
               <XMarkIcon v-else class="block w-6 h-6" aria-hidden="true" />
