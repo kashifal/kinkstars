@@ -92,7 +92,7 @@
       class="lg:w-[55%] w-full min-h-screen bg-[#FBFBFB] flex items-center justify-center"
     >
       <div
-        class="px-12 py-12 space-y-6 bg-white border rounded-xl"
+        class="px-12 max-w-2xl w-full py-12 space-y-6 bg-white border rounded-xl"
         style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
       >
         <div>
