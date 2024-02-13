@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center justify-between w-full pb-10">
       <div class="space-y-2">
-        <h2 class="text-[48px] font-semibold">Latest Clips</h2>
+        <h2 class="text-[48px] font-semibold">{{ title }}</h2>
         <p class="text-[#6B7280]">
           the latest store product we have from our best influencers
         </p>
@@ -60,6 +60,13 @@
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/vue/24/solid";
 import { ref } from "vue";
 import { Splide } from "@splidejs/vue-splide";
+
+const { title } = defineProps({
+  title: {
+    type: String,
+    default: "Latest Clips",
+  },
+});
 
 const splide = ref(null);
 
