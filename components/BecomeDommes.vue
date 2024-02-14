@@ -25,7 +25,7 @@
           We have fostered more than 100+ people and became celebrities on a
           national scale.
         </p>
-        <a href="/dommes">
+        <NuxtLink to="/dommes">
           <button
             class="bg-primary px-[24px] flex items-center gap-4 shadow-xl shadow-primary/50 py-[16px] rounded-full"
           >
@@ -34,7 +34,7 @@
               <ChevronRightIcon class="w-5 h-5" />
             </span>
           </button>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>

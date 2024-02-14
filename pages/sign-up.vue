@@ -96,9 +96,9 @@
         style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
       >
         <div>
-          <a href="/">
+          <NuxtLink to="/">
             <img :src="logoBlack" class="w-auto h-auto" alt="" />
-          </a>
+          </NuxtLink>
         </div>
         <div>
           <h2 class="text-[32px] text-[#374151] font-semibold">
@@ -260,10 +260,10 @@
             <div>
               <p class="text-[#6B7280]">
                 Already have an account?
-                <a
-                  href="/login"
+                <NuxtLink
+                  to="/login"
                   class="text-[#141416] font-semibold hover:underline"
-                  >Sign in</a
+                  >Sign in</NuxtLink
                 >
               </p>
             </div>

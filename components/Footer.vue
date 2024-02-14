@@ -4,9 +4,9 @@
     <div class="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <a href="/">
+          <NuxtLink to="/">
             <img class="h-7" :src="logo" alt="Kinkstars" />
-          </a>
+        </NuxtLink>
           <p class="text-[16px] leading-6 text-[#6B7280]">
             actually building an audience is not difficult, as long as you know
             how, and this is an easy step to make it happen
@@ -22,10 +22,10 @@
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.stores" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                    :to="item.to"
                     class="text-[16px] leading-6 text-[#141416]"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -36,10 +36,10 @@
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.about" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                    :to="item.to"
                     class="text-[16px] leading-6 text-[#141416]"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -95,16 +95,16 @@ import { ArrowRightIcon } from "@heroicons/vue/24/solid";
 import logo from "../assets/imgs/logo-black.png";
 const navigation = {
   stores: [
-    { name: "Video Clip", href: "/clips" },
-    { name: "Fetish Store", href: "/store" },
-    { name: "Dommes", href: "/dommes" },
-    { name: "Love", href: "#" },
+    { name: "Video Clip", to: "/clips" },
+    { name: "Fetish Store", to: "/store" },
+    { name: "Dommes", to: "/dommes" },
+    { name: "Love", to: "#" },
   ],
   about: [
-    { name: "Home", href: "/home" },
-    { name: "How it Works", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Contact Us", href: "#" },
+    { name: "Home", to: "/home" },
+    { name: "How it Works", to: "#" },
+    { name: "About Us", to: "#" },
+    { name: "Contact Us", to: "#" },
   ],
 };
 </script>
