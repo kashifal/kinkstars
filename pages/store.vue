@@ -298,13 +298,13 @@
           </p>
 
           <img class="mx-auto" :src="Pics" alt="" />
-          <a href="/sign-up">
+          <NuxtLink to="/sign-up">
             <button
               class="px-10 py-2 text-[13px] font-bold bg-white rounded-full"
             >
               JOIN NOW
             </button>
-          </a>
+          </NuxtLink >
         </div>
 
         <div class="grad relative rounded-[24px] col-span-3 px-6 py-20">
@@ -326,13 +326,13 @@
               reality device that would use the iPhone screen as the display.
             </p>
             
-            <a href="/sign-up">
+            <NuxtLink to="/sign-up">
               <button
                 class="px-10 bg-black text-white text-[14px] border rounded-full font-bold py-2.5 border-[#D9D9D9"
               >
                 BUY NOW
               </button>
-            </a>
+            </NuxtLink>
           </div>
         </div>
       </div>

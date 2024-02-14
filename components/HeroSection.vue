@@ -28,7 +28,7 @@
       </h2>
       <p class="text-white">Consuming the minds and souls of men</p>
       <div class="py-6">
-        <a href="/sign-up">
+        <NuxtLink to="/sign-up">
           <button
             class="bg-primary px-[24px] flex items-center gap-4 shadow-xl shadow-primary/50 py-[16px] rounded-full"
           >
@@ -37,7 +37,7 @@
               <ChevronRightIcon class="w-5 h-5" />
             </span>
           </button>
-        </a>
+        </NuxtLink>
       </div>
     </div>
     <div>

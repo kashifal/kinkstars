@@ -96,9 +96,9 @@
         style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
       >
         <div>
-          <a href="/">
+          <NuxtLink to="/">
             <img :src="logoBlack" class="w-auto h-auto" alt="" />
-          </a>
+          </NuxtLink>
         </div>
         <div>
           <h2 class="text-[32px] text-[#374151] font-semibold">
@@ -160,8 +160,8 @@
                 <label for="remeber-me"> Remember Me </label>
               </div>
               <div>
-                <a href="/reset-password" class="text-[#141416] hover:underline"
-                  >Forgot Password</a
+                <NuxtLink to="/reset-password" class="text-[#141416] hover:underline"
+                  >Forgot Password</NuxtLink
                 >
               </div>
             </div>
@@ -266,10 +266,10 @@
             <div>
               <p class="text-[#6B7280]">
                 Don’t have an account?
-                <a
-                  href="/sign-up"
+                <NuxtLink
+                  to="/sign-up"
                   class="text-[#141416] font-semibold hover:underline"
-                  >Sign Up</a
+                  >Sign Up</NuxtLink
                 >
               </p>
             </div>
