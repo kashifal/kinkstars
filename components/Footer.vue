@@ -4,7 +4,9 @@
     <div class="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
-          <img class="h-7" :src="logo" alt="Kinkstars" />
+          <a href="/">
+            <img class="h-7" :src="logo" alt="Kinkstars" />
+          </a>
           <p class="text-[16px] leading-6 text-[#6B7280]">
             actually building an audience is not difficult, as long as you know
             how, and this is an easy step to make it happen
@@ -93,13 +95,13 @@ import { ArrowRightIcon } from "@heroicons/vue/24/solid";
 import logo from "../assets/imgs/logo-black.png";
 const navigation = {
   stores: [
-    { name: "Video Clip", href: "#" },
-    { name: "Fetish Store", href: "#" },
-    { name: "Dommes", href: "#" },
+    { name: "Video Clip", href: "/clips" },
+    { name: "Fetish Store", href: "/store" },
+    { name: "Dommes", href: "/dommes" },
     { name: "Love", href: "#" },
   ],
   about: [
-    { name: "Home", href: "#" },
+    { name: "Home", href: "/home" },
     { name: "How it Works", href: "#" },
     { name: "About Us", href: "#" },
     { name: "Contact Us", href: "#" },

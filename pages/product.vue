@@ -338,17 +338,17 @@ const product = {
 const breadLinks = [
   {
     name: "Home",
-    link: "#",
+    link: "/home",
     current: false,
   },
   {
     name: "Store",
-    link: "#",
+    link: "/store",
     current: false,
   },
   {
     name: "T-shirt Product bu Selena Augnant",
-    link: "#",
+    link: "/product",
     current: true,
   },
 ];
