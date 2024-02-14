@@ -28,14 +28,16 @@
       </h2>
       <p class="text-white">Consuming the minds and souls of men</p>
       <div class="py-6">
-        <button
-          class="bg-primary px-[24px] flex items-center gap-4 shadow-xl shadow-primary/50 py-[16px] rounded-full"
-        >
-          <span class="text-[18px] font-semibold">Get Started</span>
-          <span class="p-1 text-white bg-black rounded-full">
-            <ChevronRightIcon class="w-5 h-5" />
-          </span>
-        </button>
+        <a href="/sign-up">
+          <button
+            class="bg-primary px-[24px] flex items-center gap-4 shadow-xl shadow-primary/50 py-[16px] rounded-full"
+          >
+            <span class="text-[18px] font-semibold">Get Started</span>
+            <span class="p-1 text-white bg-black rounded-full">
+              <ChevronRightIcon class="w-5 h-5" />
+            </span>
+          </button>
+        </a>
       </div>
     </div>
     <div>

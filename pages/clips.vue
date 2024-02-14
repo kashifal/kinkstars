@@ -102,7 +102,7 @@
     </div>
     <div class="px-4 py-16 mx-auto max-w-7xl">
       <div
-        class="grid grid-cols-1 gap-4 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
+        class="grid grid-cols-1 gap-2 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
       >
         <div class="col-span-1">
           <div class="relative">
@@ -118,7 +118,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -154,7 +154,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -190,7 +190,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -226,7 +226,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -262,7 +262,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -298,7 +298,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -334,7 +334,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
@@ -370,7 +370,7 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[24px] font-semibold">
+            <h3 class="max-w-xs text-[18px] font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">

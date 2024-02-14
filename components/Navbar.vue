@@ -19,7 +19,9 @@
             </DisclosureButton>
           </div>
           <div class="flex items-center flex-shrink-0">
-            <img class="w-auto h-6" :src="logo" alt="Your Company" />
+            <a href="/">
+              <img class="w-auto h-6" :src="logo" alt="Your Company" />
+            </a>
           </div>
         </div>
         <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4">

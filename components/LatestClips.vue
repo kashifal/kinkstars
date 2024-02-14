@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="flex items-center justify-between w-full pb-10">
+    <div class="md:flex-row flex-col items-center justify-between w-full pb-10">
       <div class="space-y-2">
         <h2 class="text-[48px] font-semibold">{{ title }}</h2>
         <p class="text-[#6B7280]">
           the latest store product we have from our best influencers
         </p>
       </div>
-      <div class="flex justify-end gap-4">
+      <div class="flex justify-end gap-4 mt-5 md:mt-0">
         <button @click="slideToPrev" class="">
           <ArrowLeftIcon class="w-5 h-5" />
         </button>
@@ -38,7 +38,7 @@
             perPage: 3,
           },
           1440: {
-            perPage: 5,
+            perPage: 4,
           },
         },
       }"
