@@ -1,6 +1,10 @@
 <template>
   <div class="min-h-full">
-    <Disclosure as="nav" class="bg-white shadow-sm" v-slot="{ open }">
+    <Disclosure
+      as="nav"
+      class="bg-white border-b border-gray-100 shadow-sm"
+      v-slot="{ open }"
+    >
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between h-16">
           <div class="flex relative items-center gap-4">

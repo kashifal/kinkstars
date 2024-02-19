@@ -1,6 +1,18 @@
 <template>
   <AppLayout>
     <div class="relative">
+      <div
+        class="absolute gap-12 lg:grid hidden bg-primaryBg px-6 py-4 right-0 top-[28%]"
+      >
+        <a href="#">
+          <img :src="insta" alt="" />
+        </a>
+        <a href="#"> <img :src="twitter" alt="" /> </a
+        ><a href="#"> <img :src="google" alt="" /> </a
+        ><a href="#">
+          <img :src="fb" alt="" />
+        </a>
+      </div>
       <Breadcrumb :breadLinks="breadLinks" />
 
       <Splide
@@ -260,6 +272,10 @@
 <script setup>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/vue/24/solid";
+import fb from "../assets/icons/fb.svg";
+import insta from "../assets/icons/insta.svg";
+import google from "../assets/icons/google.svg";
+import twitter from "../assets/icons/twitter.svg";
 import { ref } from "vue";
 
 import {

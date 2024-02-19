@@ -3,7 +3,7 @@
     <AppBar v-if="variant === 'default'" />
     <AppBarV2 v-else />
   </div>
-  <main class="home" style="background: #fafafa">
+  <main class="home" style="background: white">
     <slot />
   </main>
 </template>
