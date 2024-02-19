@@ -96,7 +96,9 @@
         style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
       >
         <div>
-          <img :src="logoBlack" class="w-auto h-auto" alt="" />
+          <NuxtLink to="/">
+            <img :src="logoBlack" class="w-auto h-auto" alt="" />
+          </NuxtLink>
         </div>
         <div class="space-y-2">
           <h2 class="text-xxl text-secondary font-semibold">
@@ -129,10 +131,10 @@
             <div>
               <p class="text-paragraph">
                 Remember your password?
-                <a
-                  href="/sign-in"
+                <NuxtLink
+                  to="/sign-in"
                   class="font-semibold text-black hover:underline"
-                  >Sign In</a
+                  >Sign In</NuxtLink
                 >
               </p>
             </div>

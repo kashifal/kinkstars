@@ -96,7 +96,9 @@
         style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
       >
         <div>
-          <img :src="logoBlack" class="w-auto h-auto" alt="" />
+          <NuxtLink to="/">
+            <img :src="logoBlack" class="w-auto h-auto" alt="" />
+          </NuxtLink>
         </div>
         <div>
           <h2 class="text-xxl text-secondary font-semibold">

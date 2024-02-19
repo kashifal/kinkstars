@@ -9,7 +9,7 @@
             aria-hidden="true"
           />
           <a
-            :href="page.href"
+            :href="page.link"
             :class="[
               page.current
                 ? 'ml-4 text-sm font-normal text-gray-500 hover:text-gray-700'

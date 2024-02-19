@@ -102,7 +102,7 @@
     </div>
     <div class="px-4 py-16 mx-auto max-w-7xl">
       <div
-        class="grid grid-cols-1 gap-4 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
+        class="grid grid-cols-1 gap-2 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
       >
         <div class="col-span-1">
           <div class="relative">

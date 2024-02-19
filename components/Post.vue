@@ -5,7 +5,9 @@
   >
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-2">
-        <img class="w-16 h-16 rounded-full" :src="user.avatar" alt="" />
+        <a href="/dommes-profile">
+          <img class="w-16 h-16 rounded-full" :src="user.avatar" alt="" />
+        </a>
         <div>
           <h2 class="text-lx font-semibold text-gray700">
             {{ user.name }}

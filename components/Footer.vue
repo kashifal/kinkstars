@@ -93,16 +93,16 @@ import { ArrowRightIcon } from "@heroicons/vue/24/solid";
 import logo from "../assets/imgs/logo-black.png";
 const navigation = {
   stores: [
-    { name: "Video Clip", href: "#" },
-    { name: "Fetish Store", href: "#" },
-    { name: "Dommes", href: "#" },
-    { name: "Love", href: "#" },
+    { name: "Video Clip", to: "/clips" },
+    { name: "Fetish Store", to: "/store" },
+    { name: "Dommes", to: "/dommes" },
+    { name: "Love", to: "#" },
   ],
   about: [
-    { name: "Home", href: "#" },
-    { name: "How it Works", href: "#" },
-    { name: "About Us", href: "#" },
-    { name: "Contact Us", href: "#" },
+    { name: "Home", to: "/home" },
+    { name: "How it Works", to: "#" },
+    { name: "About Us", to: "#" },
+    { name: "Contact Us", to: "#" },
   ],
 };
 </script>

@@ -5,11 +5,13 @@
   >
     <div class="flex items-start h-full gap-2">
       <div class="w-[10%] md:block hidden px-2">
-        <img
-          class="w-12 h-12 rounded-full"
-          src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-          alt=""
-        />
+        <a href="/dommes-profile">
+          <img
+            class="w-12 h-12 rounded-full"
+            src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt=""
+          />
+        </a>
       </div>
       <div class="flex-1 p-2 space-y-4">
         <textarea
