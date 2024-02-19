@@ -1,84 +1,111 @@
 <template>
   <div class="min-h-full">
-    <Disclosure as="nav" class="bg-[#141416] shadow-sm" v-slot="{ open }">
-      <!-- Show after click on icon -->
-      <div v-if="show" class=" absolute left-0 w-full h-16 bg-gray-800 p-5 z-50">
-        <div class="flex w-full items-center gap-x-6">
-          <div class="relative text-gray-400 focus-within:text-gray-600 w-full">
-            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-              <MagnifyingGlassIcon class="w-5 h-5" aria-hidden="true" />
-            </div>
-            <input id="search"
-              class="block w-full border-0 outline-none rounded-full py-1.5 pl-10 pr-3 text-gray-100 bg-[#000000]"
-              placeholder="Search" type="search" name="search" />
-          </div>
-          <div class="hover:text-gray-200 text-white xl:hidden block cursor-pointer" @click="showSearchBar">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
-          </div>
-        </div>
-      </div>
+    <Disclosure as="nav" class="bg-bgSecondary shadow-sm" v-slot="{ open }">
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between w-full h-16">
           <div class="flex relative items-center gap-4">
             <div class="flex items-center flex-shrink-0">
               <NuxtLink to="/">
-                <img class="block w-auto h-8 lg:hidden" :src="logo" alt="Your Company" />
-                <img class="hidden w-auto h-8 lg:block" :src="logo" alt="Your Company" />
-            </NuxtLink>
+                <img
+                  class="block w-auto h-8 lg:hidden"
+                  :src="logo"
+                  alt="Your Company"
+                />
+                <img
+                  class="hidden w-auto h-8 lg:block"
+                  :src="logo"
+                  alt="Your Company"
+                />
+              </NuxtLink>
             </div>
-            <div class="flex absolute left-36 w-[56px] items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end">
-              <div class="flex justify-center items-center hover:text-gray-200 text-white xl:hidden cursor-pointer pt-3"
-                @click="showSearchBar">
+            <div
+              class="flex absolute left-36 w-[56px] items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
+            >
+              <div
+                class="flex justify-center items-center hover:text-gray-200 text-white xl:hidden cursor-pointer pt-3"
+                @click="showSearchBar"
+              >
                 <MagnifyingGlassIcon class="w-6 h-6" aria-hidden="true" />
               </div>
 
               <div class="hidden w-full max-w-xl xl:block lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
                 <div class="relative text-gray-400 focus-within:text-gray-600">
-                  <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <div
+                    class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+                  >
                     <MagnifyingGlassIcon class="w-5 h-5" aria-hidden="true" />
                   </div>
-                  <input id="search"
+                  <input
+                    id="search"
                     class="block w-56 border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-100 bg-[#000000]"
-                    placeholder="Search" type="search" name="search" />
+                    placeholder="Search"
+                    type="search"
+                    name="search"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <div class="justify-center flex-1 hidden w-full sm:-my-px sm:ml-6 lg:flex sm:space-x-8">
-            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.to" :class="[
-              item.current
-                ? 'border-primary text-primary'
-                : 'border-transparent text-gray-200 hover:border-gray-300 hover:text-gray-300',
-              'inline-flex flex-col gap-1 items-center border-b-2 px-1 pt-3 pb-2 text-sm font-medium',
-            ]" :aria-current="item.current ? 'page' : undefined">
+          <div
+            class="justify-center flex-1 hidden w-full sm:-my-px sm:ml-6 lg:flex sm:space-x-8"
+          >
+            <NuxtLink
+              v-for="item in navigation"
+              :key="item.name"
+              :to="item.to"
+              :class="[
+                item.current
+                  ? 'border-primary text-primary'
+                  : 'border-transparent text-gray-200 hover:border-gray-300 hover:text-gray-300',
+                'inline-flex flex-col gap-1 items-center border-b-2 px-1 pt-3 pb-2 text-sm font-medium',
+              ]"
+              :aria-current="item.current ? 'page' : undefined"
+            >
               <span v-html="item.icon"> </span>
               <span>{{ item.name }}</span>
             </NuxtLink>
           </div>
-          <div class="items-center justify-end hidden sm:ml-6 lg:flex sm:items-center">
+          <div
+            class="items-center justify-end hidden sm:ml-6 lg:flex sm:items-center"
+          >
             <div class="flex items-center gap-4 px-4">
-              <button type="button"
-                class="relative p-1 text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              <button
+                type="button"
+                class="relative p-1 text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              >
                 <span class="absolute -inset-1.5" />
                 <span class="sr-only">View notifications</span>
-                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="18"
+                  height="19"
+                  viewBox="0 0 18 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     d="M3.75 14H14.25V8.77325C14.25 5.861 11.8995 3.5 9 3.5C6.1005 3.5 3.75 5.861 3.75 8.77325V14ZM9 2C12.7275 2 15.75 5.03225 15.75 8.77325V15.5H2.25V8.77325C2.25 5.03225 5.2725 2 9 2ZM7.125 16.25H10.875C10.875 16.7473 10.6775 17.2242 10.3258 17.5758C9.97419 17.9275 9.49728 18.125 9 18.125C8.50272 18.125 8.02581 17.9275 7.67417 17.5758C7.32254 17.2242 7.125 16.7473 7.125 16.25Z"
-                    fill="currentColor" />
+                    fill="currentColor"
+                  />
                 </svg>
               </button>
-              <button type="button"
-                class="relative p-1 text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              <button
+                type="button"
+                class="relative p-1 text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              >
                 <span class="absolute -inset-1.5" />
                 <span class="sr-only">View notifications</span>
-                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg
+                  width="18"
+                  height="19"
+                  viewBox="0 0 18 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     d="M1.5 7.24551C1.49961 6.65466 1.61576 6.06954 1.84183 5.52365C2.06789 4.97775 2.39941 4.48182 2.81741 4.06423C3.23541 3.64665 3.73168 3.31562 4.2778 3.09011C4.82392 2.86459 5.40915 2.74902 6 2.75001H12C14.4848 2.75001 16.5 4.77126 16.5 7.24551V16.25H6C3.51525 16.25 1.5 14.2288 1.5 11.7545V7.24551ZM15 14.75V7.24551C14.998 6.45088 14.6812 5.68943 14.1189 5.12797C13.5565 4.5665 12.7946 4.2508 12 4.25001H6C5.60614 4.24902 5.21595 4.32579 4.85182 4.47593C4.48769 4.62606 4.15678 4.8466 3.87807 5.12489C3.59936 5.40319 3.37832 5.73377 3.22764 6.09767C3.07696 6.46157 2.9996 6.85164 3 7.24551V11.7545C3.00199 12.5491 3.31884 13.3106 3.88114 13.872C4.44345 14.4335 5.20537 14.7492 6 14.75H15ZM10.5 8.75001H12V10.25H10.5V8.75001ZM6 8.75001H7.5V10.25H6V8.75001Z"
-                    fill="currentColor" />
+                    fill="currentColor"
+                  />
                 </svg>
               </button>
             </div>
@@ -86,25 +113,42 @@
             <Menu as="div" class="relative ml-3">
               <div>
                 <MenuButton
-                  class="relative flex text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+                  class="relative flex text-sm bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                >
                   <span class="absolute -inset-1.5" />
                   <span class="sr-only">Open user menu</span>
-                  <img class="w-8 h-8 rounded-full" :src="user.imageUrl" alt="" />
+                  <img
+                    class="w-8 h-8 rounded-full"
+                    :src="user.imageUrl"
+                    alt=""
+                  />
                 </MenuButton>
               </div>
-              <transition enter-active-class="transition duration-200 ease-out"
-                enter-from-class="transform scale-95 opacity-0" enter-to-class="transform scale-100 opacity-100"
-                leave-active-class="transition duration-75 ease-in" leave-from-class="transform scale-100 opacity-100"
-                leave-to-class="transform scale-95 opacity-0">
+              <transition
+                enter-active-class="transition duration-200 ease-out"
+                enter-from-class="transform scale-95 opacity-0"
+                enter-to-class="transform scale-100 opacity-100"
+                leave-active-class="transition duration-75 ease-in"
+                leave-from-class="transform scale-100 opacity-100"
+                leave-to-class="transform scale-95 opacity-0"
+              >
                 <MenuItems
-                  class="absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-[#141416] rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                  <MenuItem v-for="item in userNavigation" :key="item.name" v-slot="{ active }">
-                  <NuxtLink :to="item.to" :class="[
-                    active ? 'bg-gray-800' : '',
-                    'block px-4 py-2 text-sm text-gray-300',
-                  ]">
-                    <span>{{ item.name }}</span>
-                  </NuxtLink>
+                  class="absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-bgSecondary rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                >
+                  <MenuItem
+                    v-for="item in userNavigation"
+                    :key="item.name"
+                    v-slot="{ active }"
+                  >
+                    <a
+                      :href="item.href"
+                      :class="[
+                        active ? 'bg-gray-800' : '',
+                        'block px-4 py-2 text-sm text-gray-300',
+                      ]"
+                    >
+                      <span>{{ item.name }}</span>
+                    </a>
                   </MenuItem>
                 </MenuItems>
               </transition>
@@ -113,10 +157,15 @@
           <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
-              class="relative inline-flex items-center justify-center p-2 text-gray-100 bg-[#141416] rounded-md hover:bg-gray-900 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+              class="relative inline-flex items-center justify-center p-2 text-gray-100 bg-bgSecondary rounded-md hover:bg-gray-900 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <span class="absolute -inset-0.5" />
               <span class="sr-only">Open main menu</span>
-              <Bars3Icon v-if="!open" class="block w-6 h-6" aria-hidden="true" />
+              <Bars3Icon
+                v-if="!open"
+                class="block w-6 h-6"
+                aria-hidden="true"
+              />
               <XMarkIcon v-else class="block w-6 h-6" aria-hidden="true" />
             </DisclosureButton>
           </div>
@@ -125,12 +174,19 @@
 
       <DisclosurePanel class="md:hidden">
         <div class="pt-2 pb-3 space-y-1">
-          <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[
-            item.current
-              ? 'border-primary text-primary'
-              : 'border-transparent text-gray-200 hover:border-gray-300 hover:bg-primary/20 hover:text-gray-200',
-            'flex items-center gap-2 border-l-4 py-2 pl-3 pr-4 text-base font-medium',
-          ]" :aria-current="item.current ? 'page' : undefined">
+          <DisclosureButton
+            v-for="item in navigation"
+            :key="item.name"
+            as="a"
+            :href="item.href"
+            :class="[
+              item.current
+                ? 'border-primary text-primary'
+                : 'border-transparent text-gray-200 hover:border-gray-300 hover:bg-primary/20 hover:text-gray-200',
+              'flex items-center gap-2 border-l-4 py-2 pl-3 pr-4 text-base font-medium',
+            ]"
+            :aria-current="item.current ? 'page' : undefined"
+          >
             <span v-html="item.icon"> </span>
             {{ item.name }}
           </DisclosureButton>
@@ -148,17 +204,24 @@
                 {{ user.email }}
               </div>
             </div>
-            <button type="button"
-              class="relative flex-shrink-0 p-1 ml-auto text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            <button
+              type="button"
+              class="relative flex-shrink-0 p-1 ml-auto text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            >
               <span class="absolute -inset-1.5" />
               <span class="sr-only">View notifications</span>
               <BellIcon class="w-6 h-6" aria-hidden="true" />
             </button>
           </div>
           <div class="mt-3 space-y-1">
-            <DisclosureButton v-for="item in userNavigation" :key="item.name" as="a" :href="item.href"
-              class="block px-4 py-2 text-base font-medium text-gray-200 hover:bg-gray-700 hover:text-gray-200">{{
-                item.name }}</DisclosureButton>
+            <DisclosureButton
+              v-for="item in userNavigation"
+              :key="item.name"
+              as="a"
+              :href="item.href"
+              class="block px-4 py-2 text-base font-medium text-gray-200 hover:bg-gray-700 hover:text-gray-200"
+              >{{ item.name }}</DisclosureButton
+            >
           </div>
         </div>
       </DisclosurePanel>
@@ -183,12 +246,12 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/vue/24/outline";
 import logo from "../assets/imgs/LogoWhite.svg";
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const show = ref(false);
 const showSearchBar = () => {
-  show.value = !show.value
-}
+  show.value = !show.value;
+};
 
 const user = {
   name: "Tom Cook",
@@ -271,5 +334,4 @@ const userNavigation = [
   { name: "Settings", to: "#" },
   { name: "Sign out", to: "#" },
 ];
-
 </script>

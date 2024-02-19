@@ -9,7 +9,7 @@
       </div>
       <div class="flex-1 p-2 space-y-4">
         <textarea
-          class="w-full h-36 resize-none placeholder:text-[#6B7280] focus:ring-2 outline-none px-4 py-4 focus:ring-primary rounded-[5px] bg-[#FBFBFB]"
+          class="w-full h-36 resize-none placeholder:text-paragraph focus:ring-2 outline-none px-4 py-4 focus:ring-primary rounded-[5px] bg-primaryBg"
           placeholder="Write something to post"
         ></textarea>
         <div class="flex flex-wrap items-center justify-between gap-4 md:gap-0">
@@ -101,7 +101,7 @@
           </div>
           <div class="flex flex-wrap items-center gap-4 font-semibold">
             <button
-              class="px-[48px] w-full md:w-auto py-[12px] text-white bg-[#141416] rounded-[12px]"
+              class="px-[48px] w-full md:w-auto py-[12px] text-white bg-bgSecondary rounded-[12px]"
             >
               Live Stream
             </button>

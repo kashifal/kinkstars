@@ -1,10 +1,10 @@
 <template>
   <div class="px-4 py-10 mx-auto max-w-7xl lg:px-0">
     <div class="space-y-4">
-      <h2 class="text-[48px] font-semibold max-w-2xl">
+      <h2 class="text-xxxl font-sf font-semibold max-w-2xl">
         Get your desire up by your Fetish!!
       </h2>
-      <p class="text-[#6B7280] max-w-3xl">
+      <p class="text-paragraph max-w-3xl">
         Whether you’re a complete beginner or you want to step up your routine,
         get the full studio experience at home with thousands of classes for
         body, mind, and spirit.

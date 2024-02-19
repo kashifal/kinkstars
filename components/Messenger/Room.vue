@@ -11,7 +11,7 @@
           />
         </div>
         <div
-          class="max-w-xs px-4 py-4 mx-2 bg-[#F6F7F8] border border-[#F6F7F8] rounded-lg font-inter"
+          class="max-w-xs px-4 py-4 mx-2 bg-grayOff border border-grayOff rounded-lg font-inter"
         >
           <div
             class="w-full h-56 rounded-[12px] bg-[#EEEEEE] flex items-center justify-center"

@@ -1,10 +1,10 @@
 <template>
   <AppLayout :variant="'v2'">
-    <div class="relative bg overflow-hidden bg-[#141416] px-4 py-20">
+    <div class="relative bg overflow-hidden bg-bgSecondary px-4 py-20">
       <div
         class="flex flex-col items-center justify-center gap-4 text-center text-white"
       >
-        <h2 class="text-[32px] font-semibold">Games</h2>
+        <h2 class="text-xxl font-semibold">Games</h2>
         <p class="max-w-xl">100+ love games</p>
         <div
           class="flex items-center justify-center flex-1 w-full px-2 lg:ml-6 lg:justify-end"
@@ -35,8 +35,8 @@
     <div class="px-4 pt-16 pb-10 mx-auto max-w-7xl">
       <div class="flex items-center justify-between w-full pb-10">
         <div class="space-y-2">
-          <h2 class="text-[32px] font-semibold">New Games</h2>
-          <p class="text-[#6B7280]">Games on popularity</p>
+          <h2 class="text-xxl font-semibold">New Games</h2>
+          <p class="text-paragraph">Games on popularity</p>
         </div>
         <div class="flex justify-end gap-4">
           <button @click="slideToPrev" class="">
@@ -83,7 +83,7 @@
         <GameCard />
       </Splide>
       <div class="pt-16 pb-10 space-y-8">
-        <h2 class="text-[32px] font-semibold">Popular Games</h2>
+        <h2 class="text-xxl font-semibold">Popular Games</h2>
         <div
           class="grid grid-cols-1 gap-4 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
         >
@@ -110,7 +110,7 @@
         </div>
         <div class="flex items-center justify-center py-4">
           <button
-            class="text-black font-semibold px-6 py-3 rounded-full bg-[#E6E8EC] hover:bg-[#D1D5DB] transition-all duration-300 ease-in-out"
+            class="text-black font-semibold px-6 py-3 rounded-full bg-hoverBg hover:bg-grayFilled transition-all duration-300 ease-in-out"
           >
             Show more
           </button>

@@ -78,7 +78,7 @@
         <img :src="ornament" class="" alt="kink-stars-logo" />
       </div>
       <div class="space-y-4 text-center">
-        <h2 class="font-semibold text-white text-[24px]">
+        <h2 class="font-semibold text-white text-lx">
           Influencers who is professional in his field
         </h2>
         <p class="max-w-lg text-gray-400">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div
-      class="lg:w-[55%] w-full min-h-screen bg-[#FBFBFB] flex items-center justify-center"
+      class="lg:w-[55%] w-full min-h-screen bg-primaryBg flex items-center justify-center"
     >
       <div
         class="px-12 py-12 max-w-2xl w-full space-y-6 bg-white border rounded-xl"
@@ -101,7 +101,7 @@
           </NuxtLink>
         </div>
         <div>
-          <h2 class="text-[32px] text-[#374151] font-semibold">
+          <h2 class="text-xxl text-secondary font-semibold">
             Come join us now
           </h2>
         </div>
@@ -112,7 +112,7 @@
               <input
                 id="full-name"
                 type="text"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Full Name"
               />
             </div>
@@ -121,7 +121,7 @@
               <input
                 id="email"
                 type="email"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Email address"
               />
             </div>
@@ -130,13 +130,13 @@
               <input
                 id="password"
                 :type="showPassword ? 'text' : 'password'"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Password"
               />
               <button
                 @click="changePasswordType"
                 type="button"
-                class="absolute top-12 right-5 text-[#6B7280]"
+                class="absolute top-12 right-5 text-paragraph"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -167,13 +167,13 @@
               </button>
             </div>
             <div class="flex items-center justify-center gap-4">
-              <div class="flex-grow border-t border-[#E5E9F2]"></div>
-              <span class="text-[#6B7280]">Or</span>
-              <div class="flex-grow border-t border-[#E5E9F2]"></div>
+              <div class="flex-grow border-t border-borderPrimary"></div>
+              <span class="text-paragraph">Or</span>
+              <div class="flex-grow border-t border-borderPrimary"></div>
             </div>
           </form>
           <div class="flex items-center justify-center gap-4 pt-6">
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -187,7 +187,7 @@
                 />
               </svg>
             </button>
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -225,7 +225,7 @@
                 </defs>
               </svg>
             </button>
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -258,12 +258,12 @@
           </div>
           <div class="flex items-center justify-center pt-6">
             <div>
-              <p class="text-[#6B7280]">
+              <p class="text-paragraph">
                 Already have an account?
-                <NuxtLink
-                  to="/login"
-                  class="text-[#141416] font-semibold hover:underline"
-                  >Sign in</NuxtLink
+                <a
+                  href="/login"
+                  class="text-gray700 font-semibold hover:underline"
+                  >Sign in</a
                 >
               </p>
             </div>

@@ -3,8 +3,8 @@
   <div class="max-w-7xl px-4 mx-auto">
     <div class="flex items-center justify-between w-full pb-10">
       <div class="space-y-2">
-        <h2 class="text-[32px] font-semibold">Fetish on Auction</h2>
-        <p class="text-sm font-normal text-[#6B7280]">
+        <h2 class="text-xxl font-semibold">Fetish on Auction</h2>
+        <p class="text-sm font-normal text-paragraph">
           the latest store product we have from our best influencers
         </p>
         <p></p>
@@ -58,7 +58,7 @@
 
     <div class="flex my-10">
       <div
-        class="bg-[#E6E8EC] font-bold cursor-pointer px-4 mx-auto py-2.5 rounded-full text-[#23262F] inline-flex text-[14px]"
+        class="bg-hoverBg font-bold cursor-pointer px-4 mx-auto py-2.5 rounded-full text-darkest inline-flex text-[14px]"
       >
         Show More
       </div>

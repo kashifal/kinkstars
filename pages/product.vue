@@ -1,6 +1,18 @@
 <template>
   <AppLayout>
     <div class="relative">
+      <div
+        class="absolute gap-12 lg:grid hidden bg-primaryBg px-6 py-4 right-0 top-[28%]"
+      >
+        <a href="#">
+          <img :src="insta" alt="" />
+        </a>
+        <a href="#"> <img :src="twitter" alt="" /> </a
+        ><a href="#"> <img :src="google" alt="" /> </a
+        ><a href="#">
+          <img :src="fb" alt="" />
+        </a>
+      </div>
       <Breadcrumb :breadLinks="breadLinks" />
 
       <Splide
@@ -96,24 +108,24 @@
           </div>
           <!-- Product Info here -->
           <div class="">
-            <p class="font-normal text-sm text-[#6B7280]">Selena Guirno</p>
-            <h1 class="text-[32px] font-semibold">
+            <p class="font-normal text-sm text-paragraph">Selena Guirno</p>
+            <h1 class="text-xxl font-semibold">
               T-shirt Product bu Selena Augnant
             </h1>
-            <p class="text-[#95909E] text-[14px]">
+            <p class="text-lightest text-[14px]">
               Silver leather glitter lace-up shoes from Giuseppe Zanotti Design
               featuring a pointed toe, a brand embossed insole and a flat heel.
             </p>
 
             <!-- Price -->
-            <div class="text-[24px] mt-12 font-bold">
+            <div class="text-lx mt-12 font-bold">
               <h1>$430,00</h1>
             </div>
 
             <!-- Colors Radio -->
             <RadioGroup class="my-8" v-model="selectedColor">
               <RadioGroupLabel
-                class="block text-[12px] font-medium leading-6 text-[#3D3D3D]"
+                class="block text-[12px] font-medium leading-6 text-grayPro"
                 >COLOUR</RadioGroupLabel
               >
               <div class="mt-2 flex items-center space-x-3">
@@ -151,7 +163,7 @@
             <div>
               <div class="flex items-center justify-between">
                 <h2
-                  class="block text-[12px] font-medium leading-6 text-[#3D3D3D]"
+                  class="block text-[12px] font-medium leading-6 text-grayPro"
                 >
                   UK SIZES
                 </h2>
@@ -179,7 +191,7 @@
                           : 'cursor-not-allowed opacity-25',
                         active ? 'ring-2 ring-[#FDC157] ring-offset-2' : '',
                         checked
-                          ? 'bg-[#FDC157] text-white hover:bg-[#FDC157]'
+                          ? 'bg-primary text-white hover:bg-primary'
                           : 'ring-1 ring-inset ring-gray-300 bg-white text-gray-900 hover:bg-gray-50',
                         'flex items-center justify-center rounded-full h-10 w-10  text-sm font-semibold uppercase sm:flex-1',
                       ]"
@@ -202,7 +214,7 @@
               </button>
 
               <button
-                class="md:px-10 px-10 mx-auto sm:mx-0 whitespace-nowrap py-2 flex items-center border-2 transition-all group hover:text-white hover:bg-black hover:border-black border-[#E4E7EC] gap-2 bg-white rounded-lg text-black font-bold"
+                class="md:px-10 px-10 mx-auto sm:mx-0 whitespace-nowrap py-2 flex items-center border-2 transition-all group hover:text-white hover:bg-black hover:border-black border-borderSecondary gap-2 bg-white rounded-lg text-black font-bold"
               >
                 <svg
                   width="24"
@@ -260,6 +272,10 @@
 <script setup>
 import { Splide, SplideSlide } from "@splidejs/vue-splide";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/vue/24/solid";
+import fb from "../assets/icons/fb.svg";
+import insta from "../assets/icons/insta.svg";
+import google from "../assets/icons/google.svg";
+import twitter from "../assets/icons/twitter.svg";
 import { ref } from "vue";
 
 import {

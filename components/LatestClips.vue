@@ -2,8 +2,8 @@
   <div>
     <div class="md:flex-row flex-col items-center justify-between w-full pb-10">
       <div class="space-y-2">
-        <h2 class="text-[48px] font-semibold">{{ title }}</h2>
-        <p class="text-[#6B7280]">
+        <h2 class="text-xxxl font-semibold font-sf">{{ title }}</h2>
+        <p class="text-paragraph">
           the latest store product we have from our best influencers
         </p>
       </div>

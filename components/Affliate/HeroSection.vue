@@ -6,7 +6,7 @@
       >
         Ready to meet with your fans?
       </h1>
-      <p class="text-white text-[16px] max-w-xs py-4">
+      <p class="text-white text-base max-w-xs py-4">
         We help you build great meeting and easy-to schedule with your fans.
       </p>
       <div class="py-6">

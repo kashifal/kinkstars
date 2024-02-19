@@ -15,7 +15,7 @@
           • Live
         </span>
         <span
-          class="absolute flex items-center gap-2 px-4 py-1 text-sm text-white bg-[#35383F99] border border-gray-700 rounded-full top-4 right-28"
+          class="absolute flex items-center gap-2 px-4 py-1 text-sm text-white bg-darkBg border border-gray-700 rounded-full top-4 right-28"
         >
           <svg
             width="20"
@@ -42,19 +42,19 @@
             />
             <div class="flex flex-col w-full md:flex-1 md:w-auto">
               <div class="text-2xl font-semibold">Sofia Gurio</div>
-              <div class="text-[#6B7280] max-w-lg">
+              <div class="text-paragraph max-w-lg">
                 SEA SUBATHON (im doing it again cause roulette) Chilling With
                 Elephants in Thailand !socials
               </div>
             </div>
             <div class="flex gap-x-4">
               <button
-                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-[#E4E7EC] shadow"
+                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-borderSecondary shadow"
               >
                 <DollarCircle />
               </button>
               <button
-                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-[#E4E7EC] shadow"
+                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-borderSecondary shadow"
               >
                 <ShareSocial />
               </button>
@@ -63,19 +63,19 @@
         </div>
         <!-- About -->
         <div class="flex flex-col p-4 bg-white shadow gap-y-5 rounded-2xl">
-          <div class="text-[#6B7280]">About Sofia</div>
+          <div class="text-paragraph">About Sofia</div>
           <div class="flex gap-x-5">
             <div class="text-center">
               <div class="text-xl font-bold">492</div>
-              <div class="text-[#6B7280]">Followers</div>
+              <div class="text-paragraph">Followers</div>
             </div>
             <div class="text-center">
               <div class="text-xl font-bold">329</div>
-              <div class="text-[#6B7280]">Followers</div>
+              <div class="text-paragraph">Followers</div>
             </div>
             <div class="text-center">
               <div class="text-xl font-bold">32</div>
-              <div class="text-[#6B7280]">Subscribers</div>
+              <div class="text-paragraph">Subscribers</div>
             </div>
           </div>
         </div>
@@ -91,9 +91,9 @@
           </div>
           <div class="px-5 py-[7px] border-t border-b">
             <div
-              class="px-3 py-[10px] flex justify-between items-center gap-y-1 flex-wrap bg-[#FBFBFB] rounded-lg"
+              class="px-3 py-[10px] flex justify-between items-center gap-y-1 flex-wrap bg-primaryBg rounded-lg"
             >
-              <div class="text-[#6B7280]">Top Member</div>
+              <div class="text-paragraph">Top Member</div>
               <div class="flex items-center gap-x-[10px]">
                 <div class="flex gap-x-1">
                   <img
@@ -134,7 +134,7 @@
               />
               <div class="wrapper">
                 <div class="text-[14px] font-semibold">Tynisha Obey</div>
-                <div class="text-[12px] text-[#6B7280]">
+                <div class="text-[12px] text-paragraph">
                   I'd like if we could elaborate more on this.
                 </div>
               </div>
@@ -149,7 +149,7 @@
               />
               <div class="wrapper">
                 <div class="text-[14px] font-semibold">Tynisha Obey</div>
-                <div class="text-[12px] text-[#6B7280]">
+                <div class="text-[12px] text-paragraph">
                   I'd like if we could elaborate more on this.
                 </div>
               </div>
@@ -164,7 +164,7 @@
               />
               <div class="wrapper">
                 <div class="text-[14px] font-semibold">Tynisha Obey</div>
-                <div class="text-[12px] text-[#6B7280]">
+                <div class="text-[12px] text-paragraph">
                   I'd like if we could elaborate more on this.
                 </div>
               </div>
@@ -174,7 +174,7 @@
           <div class="p-6 border-t">
             <div class="relative">
               <input
-                class="w-full text-sm text-[#495057] px-4 py-[13px] bg-[#FBFBFB] rounded-xl outline-none"
+                class="w-full text-sm text-lightestPro px-4 py-[13px] bg-primaryBg rounded-xl outline-none"
                 type="text"
                 placeholder="Your comment..."
               />
@@ -228,7 +228,7 @@ import clip from "../assets/imgs/clip.mp4";
       @apply text-sm font-medium;
     }
     > .msg {
-      @apply text-xs text-[#6B7280];
+      @apply text-xs text-paragraph;
     }
   }
 }

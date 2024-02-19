@@ -1,10 +1,10 @@
 <template>
   <AppLayout :variant="'v2'">
-    <div class="relative bg overflow-hidden bg-[#141416] px-4 py-20">
+    <div class="relative bg overflow-hidden bg-bgSecondary px-4 py-20">
       <div
         class="flex flex-col items-center justify-center gap-4 text-center text-white"
       >
-        <h2 class="text-[48px] font-semibold">Clips For you</h2>
+        <h2 class="text-xxxl font-sf font-semibold">Clips For you</h2>
         <p class="max-w-xl">
           We have scored over 100+ models with tens of millions of followers,
           ready to fulfill your desires.
@@ -52,13 +52,13 @@
         <div class="px-8">
           <div class="flex flex-col justify-between">
             <div class="space-y-4">
-              <span class="text-[#6B7280]">Featured</span>
+              <span class="text-paragraph">Featured</span>
               <h2
-                class="max-w-lg text-[#141416] font-semibold md:text-[48px] text-[32px]"
+                class="max-w-lg font-sf text-gray700 font-semibold md:text-xxxl text-xxl"
               >
                 Hai, I am Sofia. Subs for more Content
               </h2>
-              <p class="text-[#6B7280]">
+              <p class="text-paragraph">
                 Consuming the minds and souls of men. Whether you’re a complete
                 beginner or you want to step up your routine, get the full
                 studio experience at home with thousands of classes for body,
@@ -79,7 +79,7 @@
               <a
                 href="#"
                 style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
-                class="flex border border-[#E4E7EC] items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
+                class="flex border border-borderSecondary items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
               >
                 View Profile
                 <ArrowRightIcon class="w-4 h-4" />
@@ -92,12 +92,12 @@
     <div class="flex items-center justify-center gap-4 py-8">
       <div class="flex items-center gap-10">
         <button
-          class="text-black font-semibold px-4 py-2 rounded-full bg-[#E6E8EC]"
+          class="text-black font-semibold px-4 py-2 rounded-full bg-hoverBg"
         >
           Popular
         </button>
-        <button class="text-[#6B7280] py-2 rounded-full">Newest</button>
-        <button class="text-[#6B7280] py-2 rounded-full">Title</button>
+        <button class="text-paragraph py-2 rounded-full">Newest</button>
+        <button class="text-paragraph py-2 rounded-full">Title</button>
       </div>
     </div>
     <div class="px-4 py-16 mx-auto max-w-7xl">
@@ -118,23 +118,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -154,23 +154,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -190,23 +190,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -226,23 +226,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -262,23 +262,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -298,23 +298,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -334,23 +334,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -370,23 +370,23 @@
             </button>
           </div>
           <div class="py-2 border-b">
-            <h3 class="max-w-xs text-[18px] font-semibold">
+            <h3 class="max-w-xs text-lx font-semibold">
               Can you resist the feeling of turn on?!
             </h3>
             <div class="flex items-center justify-between">
               <div class="flex items-center gap-4 py-2">
                 <img class="w-8 h-8 rounded-full" :src="model" alt="" />
-                <span class="text-[14px] text-[#777E90]">Sarah coheil</span>
+                <span class="text-[14px] text-steal">Sarah coheil</span>
               </div>
             </div>
           </div>
           <div class="flex items-center justify-between py-4">
             <div>
-              <span class="text-[14px] text-[#777E90]">Feb 03, 2021</span>
+              <span class="text-[14px] text-steal">Feb 03, 2021</span>
             </div>
             <div>
               <span
-                class="px-4 py-2 font-semibold text-[#FCFCFD] rounded bg-primary"
+                class="px-4 py-2 font-semibold text-gray200 rounded bg-primary"
                 >$ 50</span
               >
             </div>
@@ -396,7 +396,7 @@
     </div>
     <div class="flex items-center justify-center pb-20">
       <button
-        class="text-black font-semibold px-6 py-3 rounded-full bg-[#E6E8EC] hover:bg-[#D1D5DB] transition-all duration-300 ease-in-out"
+        class="text-black font-semibold px-6 py-3 rounded-full bg-hoverBg hover:bg-grayFilled transition-all duration-300 ease-in-out"
       >
         Show more
       </button>

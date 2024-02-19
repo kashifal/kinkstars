@@ -2,10 +2,10 @@
   <div class="flex items-center gap-4 py-4">
     <button
       :class="{
-        'text-[#777E90]': selectedTab === 'popular',
-        'text-[#23262F]': selectedTab === 'popular',
-        'bg-[#E6E8EC]': selectedTab === 'popular',
-        'text-[#495057]': selectedTab !== 'popular',
+        'text-steal': selectedTab === 'popular',
+        'text-darkest': selectedTab === 'popular',
+        'bg-hoverBg': selectedTab === 'popular',
+        'text-lightestPro': selectedTab !== 'popular',
       }"
       @click="selectTab('popular')"
       class="px-[24px] font-semibold py-[12px] rounded-full"
@@ -14,10 +14,10 @@
     </button>
     <button
       :class="{
-        'text-[#777E90]': selectedTab === 'newest',
-        'text-[#23262F]': selectedTab === 'newest',
-        'bg-[#E6E8EC]': selectedTab === 'newest',
-        'text-[#495057]': selectedTab !== 'newest',
+        'text-steal': selectedTab === 'newest',
+        'text-darkest': selectedTab === 'newest',
+        'bg-hoverBg': selectedTab === 'newest',
+        'text-lightestPro': selectedTab !== 'newest',
       }"
       @click="selectTab('newest')"
       class="px-[24px] font-semibold py-[12px] rounded-full"

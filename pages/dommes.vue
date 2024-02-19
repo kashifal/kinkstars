@@ -1,10 +1,10 @@
 <template>
   <AppLayout :variant="'v2'">
-    <div class="relative bg overflow-hidden bg-[#141416] px-4 py-20">
+    <div class="relative bg overflow-hidden bg-bgSecondary px-4 py-20">
       <div
         class="flex flex-col items-center justify-center gap-4 text-center text-white"
       >
-        <h2 class="text-[48px] font-semibold">Dommes Model</h2>
+        <h2 class="text-xxxl font-sf font-semibold">Dommes Model</h2>
         <p class="max-w-xl">
           We have scored over 100+ models with tens of millions of followers,
           ready to fulfill your desires.
@@ -39,10 +39,10 @@
       <div>
         <div class="flex items-center justify-between w-full pb-10">
           <div class="space-y-2">
-            <h2 class="md:text-[48px] text-[32px] font-semibold">
+            <h2 class="md:text-xxxl font-sf text-xxl font-semibold">
               Popular Models
             </h2>
-            <p class="text-[#6B7280]">Dommes on popularity</p>
+            <p class="text-paragraph">Dommes on popularity</p>
           </div>
           <div class="flex justify-end gap-4">
             <button @click="slideToPrev" class="">
@@ -87,8 +87,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -98,8 +98,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -109,8 +109,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -120,8 +120,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -131,8 +131,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -142,8 +142,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -153,8 +153,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div> </SplideSlide
           ><SplideSlide>
@@ -163,8 +163,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div> </SplideSlide
           ><SplideSlide>
@@ -173,8 +173,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div> </SplideSlide
           ><SplideSlide>
@@ -183,8 +183,8 @@
                 <img class="w-full rounded-md" :src="model" alt="" />
               </div>
               <div class="flex flex-col items-center justify-center py-2">
-                <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-                <p class="text-[#6B7280]">Sexy Babe</p>
+                <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+                <p class="text-paragraph">Sexy Babe</p>
               </div>
             </div>
           </SplideSlide>
@@ -193,8 +193,8 @@
     </div>
     <div class="px-4 py-16 mx-auto max-w-7xl">
       <div class="space-y-2">
-        <h2 class="md:text-[48px] text-[32px] font-semibold">Popular Models</h2>
-        <p class="text-[#6B7280]">Dommes on popularity</p>
+        <h2 class="md:text-xxxl text-xxl font-semibold">Popular Models</h2>
+        <p class="text-paragraph">Dommes on popularity</p>
       </div>
       <div
         class="grid grid-cols-1 gap-4 py-4 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2"
@@ -204,8 +204,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -213,8 +213,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -222,8 +222,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -231,8 +231,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -240,8 +240,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -249,8 +249,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -258,8 +258,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -267,8 +267,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -276,8 +276,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -285,8 +285,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -294,8 +294,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -303,8 +303,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -312,8 +312,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -321,8 +321,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -330,8 +330,8 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
         <div class="col-span-1">
@@ -339,14 +339,14 @@
             <img class="w-full" :src="model" alt="" />
           </div>
           <div class="flex flex-col items-center justify-center py-2">
-            <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-            <p class="text-[#6B7280]">Sexy Babe</p>
+            <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+            <p class="text-paragraph">Sexy Babe</p>
           </div>
         </div>
       </div>
       <div class="flex items-center justify-center py-4">
         <button
-          class="text-black font-semibold px-6 py-3 rounded-full bg-[#E6E8EC] hover:bg-[#D1D5DB] transition-all duration-300 ease-in-out"
+          class="text-black font-semibold px-6 py-3 rounded-full bg-hoverBg hover:bg-grayFilled transition-all duration-300 ease-in-out"
         >
           Show more
         </button>

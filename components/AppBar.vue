@@ -1,50 +1,36 @@
 <template>
   <div class="min-h-full">
-    <Disclosure as="nav" class="bg-white shadow-sm" v-slot="{ open }">
-      <!-- Show after click on icon -->
-      <div v-if="show" class=" absolute left-0 w-full h-18 bg-white p-5 z-50">
-        <div class="flex w-full items-center gap-x-6">
-          <div class="relative text-gray-400 focus-within:text-gray-600 w-full">
-            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-              <MagnifyingGlassIcon class="w-5 h-5" aria-hidden="true" />
-            </div>
-            <input id="search"
-              class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-100 bg-gray-700"
-              placeholder="Search" type="search" name="search" />
-          </div>
-          <div class="text-gray-400 cursor-pointer" @click="showSearchBar">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-8 h-8">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
-          </div>
-        </div>
-      </div>
+    <Disclosure
+      as="nav"
+      class="bg-white border-b border-gray-100 shadow-sm"
+      v-slot="{ open }"
+    >
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between h-16">
           <div class="flex relative items-center gap-4">
-            <div class="flex items-center flex-shrink-0"> 
+            <div class="flex items-center flex-shrink-0">
               <NuxtLink to="/">
-              <img
-                class="block w-auto h-8 lg:hidden"
-                :src="logo"
-                alt="Your Company"
-              />
-              <img
-                class="hidden w-auto h-8 lg:block"
-                :src="logo"
-                alt="Your Company"
-              />
+                <img
+                  class="block w-auto h-8 lg:hidden"
+                  :src="logo"
+                  alt="Your Company"
+                />
+                <img
+                  class="hidden w-auto h-8 lg:block"
+                  :src="logo"
+                  alt="Your Company"
+                />
               </NuxtLink>
             </div>
             <div
               class="absolute left-36 w-56 items-center justify-center flex-1 px-2 xl:flex lg:ml-6 lg:justify-end"
             >
-            <div class="text-gray-400 flex items-center justify-start w-full pt-3 ml-3"
-            @click="showSearchBar"
-            >
-              <MagnifyingGlassIcon class="w-6 h-6" aria-hidden="true" />
-            </div>
+              <div
+                class="text-gray-400 flex items-center justify-start w-full pt-3 ml-3"
+                @click="showSearchBar"
+              >
+                <MagnifyingGlassIcon class="w-6 h-6" aria-hidden="true" />
+              </div>
               <div class="hidden w-full max-w-lg lg:max-w-xs">
                 <label for="search" class="sr-only">Search</label>
                 <div class="relative text-gray-400 focus-within:text-gray-600">
@@ -55,7 +41,7 @@
                   </div>
                   <input
                     id="search"
-                    class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-900 bg-[#FBFBFB]"
+                    class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-900 bg-primaryBg"
                     placeholder="Search"
                     type="search"
                     name="search"
@@ -263,12 +249,12 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/vue/24/outline";
 import logo from "../assets/imgs/Logo.svg";
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const show = ref(false);
 const showSearchBar = () => {
-  show.value = !show.value
-}
+  show.value = !show.value;
+};
 
 const user = {
   name: "Tom Cook",

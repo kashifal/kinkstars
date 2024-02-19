@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="space-y-2">
-      <h2 class="text-[48px] font-semibold">Dommes Models</h2>
-      <p class="text-[#6B7280]">Choose your favorite</p>
+      <h2 class="text-xxxl font-sf font-semibold">Dommes Models</h2>
+      <p class="text-paragraph">Choose your favorite</p>
     </div>
     <div class="flex items-center justify-end py-4">
       <a
@@ -20,8 +20,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -29,8 +29,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -38,8 +38,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -47,8 +47,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -56,8 +56,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -65,8 +65,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -74,8 +74,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
       <div class="col-span-1">
@@ -83,8 +83,8 @@
           <img class="w-full" :src="model" alt="" />
         </div>
         <div class="flex flex-col items-center justify-center py-2">
-          <h2 class="text-[20px] font-semibold">Sofia Guirno</h2>
-          <p class="text-[#6B7280]">Sexy Babe</p>
+          <h2 class="text-llg font-semibold">Sofia Guirno</h2>
+          <p class="text-paragraph">Sexy Babe</p>
         </div>
       </div>
     </div>

@@ -1,16 +1,16 @@
 <template>
   <div
-    class="flex-1 font-inter px-4 border bg-white w-full border-[#E4E7EC] rounded-[8px] py-5 sm:p-6"
+    class="flex-1 font-inter px-4 border bg-white w-full border-borderSecondary rounded-[8px] py-5 sm:p-6"
     style="
       box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
       box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1);
     "
   >
-    <dt class="text-base uppercase text-[14px] font-normal text-[#667085]">
+    <dt class="text-base uppercase text-[14px] font-normal text-graySuit">
       {{ item.name }}
     </dt>
     <dd class="flex items-baseline justify-between mt-1 md:block lg:flex">
-      <div class="flex items-baseline text-[24px] font-semibold text-[#1A1A1A]">
+      <div class="flex items-baseline text-lx font-semibold text-grayLight100">
         {{ item.stat }}
       </div>
 

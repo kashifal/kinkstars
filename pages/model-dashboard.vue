@@ -11,22 +11,22 @@
             />
           </div>
           <div class="space-y-6">
-            <h2 class="text-[48px] font-semibold text-[#141416]">
+            <h2 class="text-xxxl font-sf font-semibold text-gray700">
               Sofia Guirno
             </h2>
             <div class="space-y-4">
               <div class="flex flex-wrap items-center gap-12">
                 <div class="flex flex-col items-center gap-1">
-                  <h2 class="text-[24px] text-[#141416] font-semibold">492</h2>
-                  <span class="text-[#6B7280]">Followers</span>
+                  <h2 class="text-lx text-gray700 font-semibold">492</h2>
+                  <span class="text-paragraph">Followers</span>
                 </div>
                 <div class="flex flex-col items-center gap-1">
-                  <h2 class="text-[24px] text-[#141416] font-semibold">492</h2>
-                  <span class="text-[#6B7280]">Followers</span>
+                  <h2 class="text-lx text-gray700 font-semibold">492</h2>
+                  <span class="text-paragraph">Followers</span>
                 </div>
                 <div class="flex flex-col items-center gap-1">
-                  <h2 class="text-[24px] text-[#141416] font-semibold">392</h2>
-                  <span class="text-[#6B7280]">Subscribers</span>
+                  <h2 class="text-lx text-gray700 font-semibold">392</h2>
+                  <span class="text-paragraph">Subscribers</span>
                 </div>
               </div>
               <div class="flex items-center gap-4">
@@ -60,12 +60,12 @@
 
               box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1);
             "
-            class="p-6 border rounded-[8px] bg-[#FFFFFF] border-[#E4E7EC]"
+            class="p-6 border rounded-[8px] bg-white border-borderSecondary"
           >
             <div class="flex items-start justify-between">
               <div>
                 <h2 class="text-[18px] font-semibold">Earning Overview</h2>
-                <p class="text-[#141416] text-[14px]">
+                <p class="text-gray700 text-[14px]">
                   The amount of income currentlyget.
                 </p>
               </div>
@@ -76,12 +76,12 @@
 
             <div class="flex items-center justify-between py-8">
               <div>
-                <h2 class="text-[#141416] text-[36px] font-semibold">
+                <h2 class="text-gray700 text-[36px] font-semibold">
                   128,937.12 USD
                 </h2>
                 <p class="font-semibold font-inter">
                   23,992.00
-                  <span class="text-[14px] text-[#667085] font-normal"
+                  <span class="text-[14px] text-graySuit font-normal"
                     >since last week</span
                   >
                 </p>
@@ -103,14 +103,14 @@
 
               box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1);
             "
-            class="p-6 border rounded-[8px] bg-[#FFFFFF] border-[#E4E7EC]"
+            class="p-6 border rounded-[8px] bg-white border-borderSecondary"
           >
             <div class="flex items-start justify-between">
               <div>
                 <h2 class="text-[18px] font-semibold">
                   Estiamated Post Earning
                 </h2>
-                <p class="text-[#141416] text-[14px]">
+                <p class="text-gray700 text-[14px]">
                   Overview of your post rates
                 </p>
               </div>
@@ -134,12 +134,12 @@
 
               box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1);
             "
-            class="p-6 border rounded-[8px] bg-[#FFFFFF] border-[#E4E7EC]"
+            class="p-6 border rounded-[8px] bg-white border-borderSecondary"
           >
             <div class="flex items-start justify-between">
               <div>
                 <h2 class="text-[18px] font-semibold">Payouts</h2>
-                <p class="text-[#141416] text-[14px]">
+                <p class="text-gray700 text-[14px]">
                   The amount of income to draw.
                 </p>
               </div>
@@ -149,10 +149,10 @@
             </div>
             <div class="flex items-center gap-4 py-6">
               <div>
-                <span class="text-[14px] text-[#667085] uppercase"
+                <span class="text-[14px] text-graySuit uppercase"
                   >Total Payout</span
                 >
-                <h2 class="text-[24px] text-[#1A1A1A] font-semibold">
+                <h2 class="text-lx text-grayLight100 font-semibold">
                   $4,401.12 USD
                 </h2>
               </div>
@@ -167,7 +167,7 @@
             </div>
             <div>
               <button
-                class="w-full bg-[#141416] rounded-[12px] px-[24px] py-[13px] text-white font-semibold font-sans"
+                class="w-full bg-bgSecondary rounded-[12px] px-[24px] py-[13px] text-white font-semibold font-sans"
               >
                 Payout
               </button>

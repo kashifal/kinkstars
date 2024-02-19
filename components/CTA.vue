@@ -1,16 +1,16 @@
 <template>
   <div
-    class="bg-[#FBFBFB] text-center px-4 py-16 mx-auto max-w-7xl lg:px-0 rounded-md"
+    class="bg-primaryBg text-center px-4 py-16 mx-auto max-w-7xl lg:px-0 rounded-md"
   >
     <div class="flex flex-col items-center justify-center gap-8">
-      <span class="font-semibold text-[#777E90]"
+      <span class="font-semibold text-steal"
         >Your audience will be gathered</span
       >
-      <h2 class="text-[64px] leading-[65px] font-semibold">
+      <h2 class="text-xxxxl leading-[65px] font-sf font-semibold">
         Anywhere you want. <br />
         Anytime you want.
       </h2>
-      <p class="max-w-lg text-[#6B7280]">
+      <p class="max-w-lg text-paragraph">
         Get started with two free weeks of unlimited yoga, fitness, and
         meditation classes. Cancel anytime.
       </p>

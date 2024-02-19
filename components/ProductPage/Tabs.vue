@@ -21,8 +21,8 @@
 
     <!-- Description -->
     <div class="">
-      <h1 class="text-[24px] font-semibold text-black">Description</h1>
-      <p class="text-[#6B7280] text-sm py-4 font-normal">
+      <h1 class="text-lx font-semibold text-black">Description</h1>
+      <p class="text-paragraph text-sm py-4 font-normal">
         Consuming the minds and souls of men. Whether you’re a complete beginner
         or you want to step up your routine, get the full studio experience at
         home with thousands of classes for body, mind, and spirit. Consuming the
@@ -42,10 +42,8 @@
       >
         <div class="flex flex-row-reverse mx-auto sm:mx-0 items-center gap-4">
           <div class="">
-            <h1 class="text-black sm:text-[24px] text-sm font-semibold">
-              Karima
-            </h1>
-            <p class="text-[#6B7280] sm:text-[14px] text-[10px]">
+            <h1 class="text-black sm:text-lx text-sm font-semibold">Karima</h1>
+            <p class="text-paragraph sm:text-[14px] text-[10px]">
               Professional dominatrix
             </p>
           </div>
@@ -57,7 +55,7 @@
         </div>
 
         <button
-          class="bg-white mx-auto sm:mx-0 font-bold text-sm px-6 py-2 flex items-center gap-2 rounded-xl border-2 border-[#E4E7EC]"
+          class="bg-white mx-auto sm:mx-0 font-bold text-sm px-6 py-2 flex items-center gap-2 rounded-xl border-2 border-borderSecondary"
         >
           <span>View Profile </span>
           <svg

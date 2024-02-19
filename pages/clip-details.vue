@@ -4,18 +4,18 @@
       <div class="px-4 pt-10 pb-4 mx-auto space-y-8 max-w-7xl">
         <div class="flex items-center">
           <button
-            class="flex items-center gap-2 bg-[#E6E8EC] px-[16px] py-[10px] rounded-full text-[#23262F] hover:bg-gray-100"
+            class="flex items-center gap-2 bg-hoverBg px-[16px] py-[10px] rounded-full text-darkest hover:bg-gray-100"
           >
             <ChevronLeftIcon class="w-5 h-5" />
             Back
           </button>
         </div>
         <div class="py-4 space-y-4">
-          <span class="text-[#6B7280]">Previews</span>
-          <h2 class="text-[#141416] text-[32px] font-semibold">
+          <span class="text-paragraph">Previews</span>
+          <h2 class="text-gray700 text-xxl font-semibold">
             Hai, I am Sofia. Subs for more Content
           </h2>
-          <p class="text-[#6B7280]">
+          <p class="text-paragraph">
             Consuming the minds and souls of men. Whether you’re a complete
             beginner or you want to step up your routine, get the full studio
             experience at home with thousands of classes for body, mind, and
@@ -25,14 +25,14 @@
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-4">
             <img :src="model" class="w-8 h-8 rounded-full" alt="" />
-            <span class="text-[#141416] font-semibold text-[18px]"
+            <span class="text-gray700 font-semibold text-[18px]"
               >Sofia Shane</span
             >
           </div>
           <div class="flex items-center gap-4">
             <button
               style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
-              class="flex border border-[#E4E7EC] items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
+              class="flex border border-borderSecondary items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
             >
               <HeartIcon class="w-5 h-5" />
 
@@ -40,7 +40,7 @@
             </button>
             <button
               style="box-shadow: 0px 1px 20px 0px rgba(16, 24, 40, 0.05)"
-              class="flex border border-[#E4E7EC] items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
+              class="flex border border-borderSecondary items-center gap-4 px-[24px] py-[12px] font-semibold rounded-[12px]"
             >
               <ShareIcon class="w-5 h-5" />
 
@@ -67,7 +67,7 @@
         <div>
           <div class="flex items-center justify-between w-full pb-10">
             <div class="space-y-2">
-              <h2 class="text-[32px] font-semibold">Similar Videos</h2>
+              <h2 class="text-xxl font-semibold">Similar Videos</h2>
             </div>
             <div class="flex justify-end gap-4">
               <button @click="slideToPrev" class="">

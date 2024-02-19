@@ -38,12 +38,12 @@
       </div>
       <div class="mt-3 flex gap-x-3">
         <button
-          class="w-20 h-7 rounded-full bg-[#35383F99] flex justify-center items-center gap-x-2"
+          class="w-20 h-7 rounded-full bg-darkBg flex justify-center items-center gap-x-2"
         >
           <ThreeUser /> <span class="text-xs font-semibold">3.6K</span>
         </button>
         <button
-          class="w-20 h-7 rounded-full bg-[#35383F99] flex justify-center items-center gap-x-2"
+          class="w-20 h-7 rounded-full bg-darkBg flex justify-center items-center gap-x-2"
         >
           <span class="text-xs font-semibold">3:07:48</span>
         </button>
@@ -110,7 +110,7 @@
         <div class="h-12 flex">
           <div class="w-full relative">
             <input
-              class="w-full text-sm text-[#495057] px-4 py-[13px] bg-[#FBFBFB] rounded-xl outline-none"
+              class="w-full text-sm text-lightestPro px-4 py-[13px] bg-primaryBg rounded-xl outline-none"
               type="text"
               placeholder="Your comment..."
             />
@@ -153,19 +153,19 @@
             <img src="https://placehold.co/60x60" alt="" />
             <div class="w-full flex flex-col">
               <div class="text-2xl font-semibold">Sofia Gurio</div>
-              <div class="text-[#6B7280]">
+              <div class="text-paragraph">
                 SEA SUBATHON (im doing it again cause roulette) Chilling With
                 Elephants in Thailand !socials
               </div>
             </div>
             <div class="flex gap-x-4">
               <button
-                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-[#E4E7EC] shadow"
+                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-borderSecondary shadow"
               >
                 <DollarCircle />
               </button>
               <button
-                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-[#E4E7EC] shadow"
+                class="w-[52px] h-12 flex justify-center items-center bg-white rounded-xl border border-borderSecondary shadow"
               >
                 <ShareSocial />
               </button>
@@ -173,19 +173,19 @@
           </div>
           <!-- About -->
           <div class="p-4 flex flex-col gap-y-5 bg-white rounded-2xl shadow">
-            <div class="text-[#6B7280]">About Sofia</div>
+            <div class="text-paragraph">About Sofia</div>
             <div class="flex gap-x-5">
               <div class="text-center">
                 <div class="font-bold text-xl">492</div>
-                <div class="text-[#6B7280]">Followers</div>
+                <div class="text-paragraph">Followers</div>
               </div>
               <div class="text-center">
                 <div class="font-bold text-xl">329</div>
-                <div class="text-[#6B7280]">Followers</div>
+                <div class="text-paragraph">Followers</div>
               </div>
               <div class="text-center">
                 <div class="font-bold text-xl">32</div>
-                <div class="text-[#6B7280]">Subscribers</div>
+                <div class="text-paragraph">Subscribers</div>
               </div>
             </div>
           </div>
@@ -199,9 +199,9 @@
           </div>
           <div class="px-5 py-[7px] border-t border-b">
             <div
-              class="px-3 py-[10px] flex justify-between items-center gap-y-1 flex-wrap bg-[#FBFBFB] rounded-lg"
+              class="px-3 py-[10px] flex justify-between items-center gap-y-1 flex-wrap bg-primaryBg rounded-lg"
             >
-              <div class="text-[#6B7280]">Top Member</div>
+              <div class="text-paragraph">Top Member</div>
               <div class="flex items-center gap-x-[10px]">
                 <div class="flex gap-x-1">
                   <img src="https://placehold.co/40x45" alt="" />
@@ -217,7 +217,7 @@
         <div class="h-full flex flex-col min-h-0">
           <!-- Chats -->
           <div
-            class=" h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
+            class="h-full px-6 py-4 gap-y-3 flex flex-col-reverse overflow-y-auto"
           >
             <!-- Message -->
             <div class="msg">
@@ -240,7 +240,7 @@
           <div class="border-t p-6">
             <div class="relative">
               <input
-                class="w-full text-sm text-[#495057] px-4 py-[13px] bg-[#FBFBFB] rounded-xl outline-none"
+                class="w-full text-sm text-lightestPro px-4 py-[13px] bg-primaryBg rounded-xl outline-none"
                 type="text"
                 placeholder="Your comment..."
               />
@@ -294,7 +294,7 @@ import ThreeUser from "~/components/Icons/ThreeUser.vue";
       @apply text-sm font-medium;
     }
     > .msg {
-      @apply text-xs md:text-[#6B7280];
+      @apply text-xs md:text-paragraph;
     }
   }
 }

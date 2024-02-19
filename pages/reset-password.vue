@@ -78,7 +78,7 @@
         <img :src="ornament" class="" alt="kink-stars-logo" />
       </div>
       <div class="space-y-4 text-center">
-        <h2 class="font-semibold text-white text-[24px]">
+        <h2 class="font-semibold text-white text-lx">
           Influencers who is professional in his field
         </h2>
         <p class="max-w-lg text-gray-400">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div
-      class="lg:w-[55%] w-full min-h-screen bg-[#FBFBFB] flex items-center justify-center"
+      class="lg:w-[55%] w-full min-h-screen bg-primaryBg flex items-center justify-center"
     >
       <div
         class="px-12 py-12 max-w-2xl w-full space-y-6 bg-white border rounded-xl"
@@ -101,7 +101,7 @@
           </NuxtLink>
         </div>
         <div class="space-y-2">
-          <h2 class="text-[32px] text-[#374151] font-semibold">
+          <h2 class="text-xxl text-secondary font-semibold">
             Reset your password
           </h2>
           <p class="text-[#00000099]">
@@ -115,7 +115,7 @@
               <input
                 id="email"
                 type="email"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Email address"
               />
             </div>
@@ -129,7 +129,7 @@
           </form>
           <div class="flex items-center justify-center pt-6">
             <div>
-              <p class="text-[#6B7280]">
+              <p class="text-paragraph">
                 Remember your password?
                 <NuxtLink
                   to="/sign-in"

@@ -21,8 +21,8 @@
 
     <!-- Description -->
     <div class="">
-      <h1 class="text-[24px] font-semibold text-black">Description</h1>
-      <p class="text-[#6B7280] text-sm py-4 font-normal">
+      <h1 class="text-lx font-semibold text-black">Description</h1>
+      <p class="text-paragraph text-sm py-4 font-normal">
         Consuming the minds and souls of men. Whether you’re a complete beginner
         or you want to step up your routine, get the full studio experience at
         home with thousands of classes for body, mind, and spirit. Consuming the

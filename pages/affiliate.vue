@@ -1,7 +1,7 @@
 <template>
   <AppLayout variant="v2">
     <!-- Hero -->
-    <div class="bg-[#141416]">
+    <div class="bg-bgSecondary">
       <div class="relative isolate">
         <div class="overflow-hidden">
           <div class="mx-auto max-w-7xl px-6 pt-10 md:pt-0 lg:px-8">
@@ -116,7 +116,7 @@
         <div class="mb-[10px] text-2xl md:text-5xl font-semibold">
           Steps to build your own audience and affiliate
         </div>
-        <div class="text-sm md:text-lg text-[#6B7280]">
+        <div class="text-sm md:text-lg text-paragraph">
           actually building an audience is not difficult, as long as you know
           how, and <br />
           this is an easy step to make it happen
@@ -143,7 +143,7 @@
           <div class="text-sm font-semibold">
             Choose the appropriate platform
           </div>
-          <div class="text-xs md:text-sm text-[#777E90]">
+          <div class="text-xs md:text-sm text-steal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </div>
@@ -165,7 +165,7 @@
           </div>
 
           <div class="text-sm font-semibold">Create content you like</div>
-          <div class="text-xs md:text-sm text-[#777E90]">
+          <div class="text-xs md:text-sm text-steal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </div>
@@ -187,7 +187,7 @@
           </div>
 
           <div class="text-sm font-semibold">Advertise your content</div>
-          <div class="text-xs md:text-sm text-[#777E90]">
+          <div class="text-xs md:text-sm text-steal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </div>
@@ -211,7 +211,7 @@
           <div class="text-sm font-semibold">
             Your audience will be gathered
           </div>
-          <div class="text-xs md:text-sm text-[#777E90]">
+          <div class="text-xs md:text-sm text-steal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </div>
@@ -221,17 +221,17 @@
 
     <div class="px-4 py-10 mx-auto max-w-7xl md:px-0">
       <div
-        class="flex flex-col-reverse items-center justify-between gap-x-[120px] bg-[#FBFBFB] md:flex-row"
+        class="flex flex-col-reverse items-center justify-between gap-x-[120px] bg-primaryBg md:flex-row"
       >
         <img
           :src="affiliate_1"
           class="object-cover w-full h-full md:w-[30%] md:h-[70%]"
           alt=""
         />
-        <div class="space-y-4 text-[48px] font-semibold">
+        <div class="space-y-4 text-xxxl font-sf font-semibold">
           <div class="text-center md:text-left">
             <div class="text-xl">Best of lust</div>
-            <h2 class="text-2xl md:text-5xl text-[#323548] md:text-[#141416]">
+            <h2 class="text-2xl md:text-5xl text-grayWow md:text-gray700">
               <span
                 >Becoming Famous <br />
                 Succubus and Gather Your <br />
@@ -239,7 +239,7 @@
               >
             </h2>
           </div>
-          <p class="text-sm md:text-[18px] text-[#6B7280] font-medium">
+          <p class="text-sm md:text-[18px] text-paragraph font-medium">
             Consuming the minds and souls of men. Whether you’re a complete
             beginner or you want to step up your routine, get the full studio
             experience at home with thousands of classes for body, mind, and
@@ -279,7 +279,7 @@
               </svg>
 
               <div>
-                <div class="text-base text-[#868491] font-medium">
+                <div class="text-base text-grayMine font-medium">
                   Dommes Model
                 </div>
                 <div class="text-2xl md:text-5xl font-bold">200+</div>
@@ -316,7 +316,7 @@
               </svg>
 
               <div>
-                <div class="text-base text-[#868491] font-medium">
+                <div class="text-base text-grayMine font-medium">
                   Fans Gather
                 </div>
                 <div class="text-2xl md:text-5xl font-bold">2300+</div>
@@ -328,13 +328,13 @@
       <div
         class="mt-6 md:mt-0 flex flex-col items-center justify-between md:flex-row"
       >
-        <div class="space-y-4 text-[48px] font-semibold">
+        <div class="space-y-4 text-xxxl font-sf font-semibold">
           <div>
-            <h2 class="text-2xl md:text-5xl text-[#323548] md:text-[#141416]">
+            <h2 class="text-2xl md:text-5xl text-grayWow md:text-gray700">
               <span>What Makes Us Different?</span>
             </h2>
           </div>
-          <p class="text-sm md:text-[18px] text-[#6B7280] font-medium">
+          <p class="text-sm md:text-[18px] text-paragraph font-medium">
             We are an agency that focuses on providing special training to
             become an influencer, starting from finding followers, building a
             brand, creating content, to becoming a great influencer.

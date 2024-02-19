@@ -10,7 +10,7 @@
       />
       <div>
         <h2 class="text-[14px] font-semibold text-[#11142D]">{{ userName }}</h2>
-        <p class="text-[#707281] text-[12px]">{{ message }}</p>
+        <p class="text-graySuper text-[12px]">{{ message }}</p>
       </div>
     </div>
     <div>
@@ -28,7 +28,7 @@
                 : ""
             }}
           </div>
-          <div class="text-[12px] text-[#707281]">{{ time }}</div>
+          <div class="text-[12px] text-graySuper">{{ time }}</div>
         </div>
       </div>
     </div>

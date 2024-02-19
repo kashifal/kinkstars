@@ -8,6 +8,15 @@
   background-color: #fafafa;
 }
 
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF");
+}
+
 body {
   overflow-x: hidden;
+}
+
+.heading {
+  font-family: "SF Pro Display";
 }

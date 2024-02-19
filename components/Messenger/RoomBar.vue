@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-4 border-b bg-white sticky top-0 flex items-center justify-between border-[#E4E7EC]"
+    class="p-4 border-b bg-white sticky top-0 flex items-center justify-between border-borderSecondary"
   >
     <div class="flex items-center gap-4">
       <img
@@ -10,7 +10,7 @@
       />
       <div>
         <h2 class="text-[14px] font-semibold text-[#11142D]">Tobias Ricky</h2>
-        <p class="text-[#707281] text-[12px]">Online</p>
+        <p class="text-graySuper text-[12px]">Online</p>
       </div>
     </div>
     <div class="flex items-center gap-4">

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sticky top-0 p-4 bg-white border-b border-[#E4E7EC] flex items-center gap-2"
+    class="sticky top-0 p-4 bg-white border-b border-borderSecondary flex items-center gap-2"
   >
     <div class="flex-1">
       <label for="search" class="sr-only">Search</label>
@@ -16,7 +16,7 @@
         <input
           id="search"
           name="search"
-          class="block w-full rounded-[12px] bg-[#F7F7F8] py-[16px] pl-10 outline-none pr-3 text-gray-900 border border-[#E4E7EC]"
+          class="block w-full rounded-[12px] bg-bgWhite py-[16px] pl-10 outline-none pr-3 text-gray-900 border border-borderSecondary"
           placeholder="Search"
           type="search"
         />
@@ -24,7 +24,7 @@
     </div>
     <div>
       <button
-        class="p-[16px] border rounded-[12px] border-[#E4E7EC] bg-[#F7F7F8]"
+        class="p-[16px] border rounded-[12px] border-borderSecondary bg-bgWhite"
       >
         <svg
           width="20"

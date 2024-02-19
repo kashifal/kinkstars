@@ -16,22 +16,24 @@
             </button>
           </div>
           <div>
-            <h2 class="text-[48px] font-semibold text-[#141416] text-center">
+            <h2
+              class="text-xxxl font-semibold font-sf text-gray700 text-center"
+            >
               Sofia Guirno
             </h2>
           </div>
           <div class="flex flex-wrap items-center justify-center gap-12">
             <div class="flex flex-col items-center gap-1 text-center">
-              <h2 class="text-[24px] text-[#141416] font-semibold">492</h2>
-              <span class="text-[#6B7280]">Followers</span>
+              <h2 class="text-lx text-gray700 font-semibold">492</h2>
+              <span class="text-paragraph">Followers</span>
             </div>
             <div class="flex flex-col items-center gap-1 text-center">
-              <h2 class="text-[24px] text-[#141416] font-semibold">492</h2>
-              <span class="text-[#6B7280]">Followers</span>
+              <h2 class="text-lx text-gray700 font-semibold">492</h2>
+              <span class="text-paragraph">Followers</span>
             </div>
             <div class="flex flex-col items-center gap-1 text-center">
-              <h2 class="text-[24px] text-[#141416] font-semibold">392</h2>
-              <span class="text-[#6B7280]">Subscribers</span>
+              <h2 class="text-lx text-gray700 font-semibold">392</h2>
+              <span class="text-paragraph">Subscribers</span>
             </div>
           </div>
           <div>
@@ -73,7 +75,7 @@
                 'bg-gray-100': selectedTab === 'Free Posts',
                 'text-black': selectedTab === 'Free Posts',
               }"
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <Squares2X2Icon class="w-5 h-5" />
               Free Posts
@@ -84,31 +86,31 @@
                 'bg-gray-100': selectedTab === 'Subs-Only',
                 'text-black': selectedTab === 'Subs-Only',
               }"
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <LockClosedIcon class="w-5 h-5" />
               Subs-Only
             </button>
             <button
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <VideoCameraIcon class="w-5 h-5" />
               Video
             </button>
             <button
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <PhotoIcon class="w-5 h-5" />
               Photos
             </button>
             <button
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <ArrowTrendingUpIcon class="w-5 h-5" />
               Auction
             </button>
             <button
-              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-[#777E90] hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-full font-semibold px-[24px] py-[10px] text-steal hover:bg-gray-100"
             >
               <PuzzlePieceIcon class="w-5 h-5" />
               Games
@@ -116,7 +118,7 @@
           </div>
           <div>
             <button
-              class="flex items-center gap-2 rounded-[12px] text-[#777E90] px-4 py-2 hover:bg-gray-100"
+              class="flex items-center gap-2 rounded-[12px] text-steal px-4 py-2 hover:bg-gray-100"
             >
               <EllipsisHorizontalIcon class="w-6 h-6" />
               More
