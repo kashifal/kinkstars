@@ -1,6 +1,44 @@
 <template>
   <div class="min-h-full">
-    <Disclosure as="nav" class="bg-bgSecondary shadow-sm" v-slot="{ open }">
+    <Disclosure as="nav" class="bg-[#141416] shadow-sm" v-slot="{ open }">
+      <!-- Show after click on icon -->
+      <div v-if="show" class="absolute left-0 w-full h-16 bg-gray-800 p-5 z-50">
+        <div class="flex w-full items-center gap-x-6">
+          <div class="relative text-gray-400 focus-within:text-gray-600 w-full">
+            <div
+              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+            >
+              <MagnifyingGlassIcon class="w-5 h-5" aria-hidden="true" />
+            </div>
+            <input
+              id="search"
+              class="block w-full border-0 outline-none rounded-full py-1.5 pl-10 pr-3 text-gray-100 bg-[#000000]"
+              placeholder="Search"
+              type="search"
+              name="search"
+            />
+          </div>
+          <div
+            class="hover:text-gray-200 text-white xl:hidden block cursor-pointer"
+            @click="showSearchBar"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between w-full h-16">
           <div class="flex relative items-center gap-4">
@@ -19,7 +57,7 @@
               </NuxtLink>
             </div>
             <div
-              class="flex absolute left-36 w-[56px] items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
+              class="flex absolute left-36 w-[56px] top-3 items-center justify-center flex-1 px-2 lg:ml-6 lg:justify-end"
             >
               <div
                 class="flex justify-center items-center hover:text-gray-200 text-white xl:hidden cursor-pointer pt-3"
