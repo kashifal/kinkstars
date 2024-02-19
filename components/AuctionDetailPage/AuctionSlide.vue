@@ -9,17 +9,17 @@
         />
       </div>
       <div class="py-2">
-        <h3 class="max-w-xs text-[16px] font-semibold">Auction Thing 1</h3>
-        <p class="text-[14px] pb-4 font-normal text-[#777E90]">
+        <h3 class="max-w-xs text-base font-semibold">Auction Thing 1</h3>
+        <p class="text-[14px] pb-4 font-normal text-steal">
           Auction brief description will be here. And here if the text was long.
         </p>
         <div class="flex pt-4 border-t items-center justify-between">
           <div class="flex items-center gap-4 py-2">
-            <span class="text-[14px] text-[#777E90]">Current Bid</span>
+            <span class="text-[14px] text-steal">Current Bid</span>
           </div>
 
           <div>
-            <button class="px-4 py-2 rounded-[4px] text-[20px] font-bold">
+            <button class="px-4 py-2 rounded-[4px] text-llg font-bold">
               $590,000
             </button>
           </div>

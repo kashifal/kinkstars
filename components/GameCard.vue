@@ -6,11 +6,12 @@
     >
       <img :src="game" class="w-full h-auto" alt="" />
       <div class="pt-4 pb-2 space-y-4">
-        <h2 class="text-[#181818] font-semibold text-[20px]">
+        <h2 class="text-[#181818] font-semibold text-llg">
           Asphalt 9: Legends
         </h2>
         <div>
-          <span class="bg-[#FDF5D8] text-primary px-[10px] py-[4px] rounded-md"
+          <span
+            class="bg-yellowLight text-primary px-[10px] py-[4px] rounded-md"
             >Free Download</span
           >
         </div>

@@ -1,18 +1,18 @@
 <template>
-  <div class="bg-[#141416]">
+  <div class="bg-bgSecondary">
     <Navbar />
     <HeroSection />
   </div>
   <div class="px-4 py-10 mx-auto max-w-7xl">
     <LatestClips />
   </div>
-  <div class="bg-[#FBFBFB]">
+  <div class="bg-primaryBg">
     <BecomeDommes />
   </div>
   <div class="px-4 py-10 mx-auto max-w-7xl">
     <VideoClips />
   </div>
-  <div class="bg-[#FBFBFB]">
+  <div class="bg-primaryBg">
     <Fetishes />
   </div>
   <div class="px-4 py-10 mx-auto max-w-7xl">

@@ -95,25 +95,25 @@
           </div>
           <!-- Product Info here -->
           <div class="">
-            <h1 class="text-[32px] font-semibold">Auction Thing 1</h1>
+            <h1 class="text-xxl font-semibold">Auction Thing 1</h1>
 
             <!-- Time -->
             <div
-              class="px-6 my-6 items-center gap-6 py-2 bg-[#E6E8EC] rounded-[12px] inline-flex"
+              class="px-6 my-6 items-center gap-6 py-2 bg-hoverBg rounded-[12px] inline-flex"
             >
               <div class="flex items-center flex-col">
                 <h1 class="text-[18px] font-semibold">32</h1>
-                <h1 class="text-[14px] text-[#6B7280] font-semibold">Days</h1>
+                <h1 class="text-[14px] text-paragraph font-semibold">Days</h1>
               </div>
               <span>:</span>
               <div class="flex items-center flex-col">
                 <h1 class="text-[18px] font-semibold">10</h1>
-                <h1 class="text-[14px] text-[#6B7280] font-semibold">Hours</h1>
+                <h1 class="text-[14px] text-paragraph font-semibold">Hours</h1>
               </div>
               <span>:</span>
               <div class="flex items-center flex-col">
                 <h1 class="text-[18px] font-semibold">10</h1>
-                <h1 class="text-[14px] text-[#6B7280] font-semibold">
+                <h1 class="text-[14px] text-paragraph font-semibold">
                   Minutes
                 </h1>
               </div>
@@ -121,7 +121,7 @@
 
             <!-- Address -->
             <div class="flex flex-col my-6 border-b pb-6 space-y-3">
-              <h1 class="text-[#6B7280] text-[16px] font-normal">
+              <h1 class="text-paragraph text-base font-normal">
                 Bargain Hunt Auctions
               </h1>
 
@@ -145,7 +145,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <p class="text-[16px] font-medium">September 8, 2022</p>
+                <p class="text-base font-medium">September 8, 2022</p>
               </div>
               <div class="flex items-center gap-2">
                 <svg
@@ -161,13 +161,13 @@
                   />
                 </svg>
 
-                <p class="text-[16px] font-medium">Thornleigh, Australia</p>
+                <p class="text-base font-medium">Thornleigh, Australia</p>
               </div>
             </div>
 
             <!-- Buttons -->
             <div class="my-8">
-              <h1 class="text-[16px] font-semibold">Place a bid</h1>
+              <h1 class="text-base font-semibold">Place a bid</h1>
               <div
                 class="flex flex-wrap mt-2 items-start sm:items-center gap-4"
               >

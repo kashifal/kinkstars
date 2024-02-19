@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-full">
-    <Disclosure as="nav" class="bg-[#141416] shadow-sm" v-slot="{ open }">
+    <Disclosure as="nav" class="bg-bgSecondary shadow-sm" v-slot="{ open }">
       <div class="px-12 sm:px-6 lg:px-16">
         <div class="flex justify-between w-full h-16">
           <div class="flex relative items-center gap-4">
@@ -63,7 +63,7 @@
             <div class="flex items-center gap-4 px-4">
               <button
                 type="button"
-                class="relative p-1 text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                class="relative p-1 text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               >
                 <span class="absolute -inset-1.5" />
                 <span class="sr-only">View notifications</span>
@@ -82,7 +82,7 @@
               </button>
               <button
                 type="button"
-                class="relative p-1 text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                class="relative p-1 text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               >
                 <span class="absolute -inset-1.5" />
                 <span class="sr-only">View notifications</span>
@@ -124,7 +124,7 @@
                 leave-to-class="transform scale-95 opacity-0"
               >
                 <MenuItems
-                  class="absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-[#141416] rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                  class="absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-bgSecondary rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                 >
                   <MenuItem
                     v-for="item in userNavigation"
@@ -148,7 +148,7 @@
           <div class="flex items-center -mr-2 lg:hidden">
             <!-- Mobile menu button -->
             <DisclosureButton
-              class="relative inline-flex items-center justify-center p-2 text-gray-100 bg-[#141416] rounded-md hover:bg-gray-900 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              class="relative inline-flex items-center justify-center p-2 text-gray-100 bg-bgSecondary rounded-md hover:bg-gray-900 hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
             >
               <span class="absolute -inset-0.5" />
               <span class="sr-only">Open main menu</span>
@@ -197,7 +197,7 @@
             </div>
             <button
               type="button"
-              class="relative flex-shrink-0 p-1 ml-auto text-gray-100 bg-[#141416] rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              class="relative flex-shrink-0 p-1 ml-auto text-gray-100 bg-bgSecondary rounded-full hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
             >
               <span class="absolute -inset-1.5" />
               <span class="sr-only">View notifications</span>

@@ -7,22 +7,22 @@
       <div class="flex items-center gap-2">
         <img class="w-16 h-16 rounded-full" :src="user.avatar" alt="" />
         <div>
-          <h2 class="text-[24px] font-semibold text-[#141416]">
+          <h2 class="text-lx font-semibold text-gray700">
             {{ user.name }}
           </h2>
-          <p class="text-[#6B7280] text-[14px]">
+          <p class="text-paragraph text-[14px]">
             {{ location }} • {{ user.date }}
           </p>
         </div>
       </div>
       <div>
         <button class="p-2 rounded-[12px] hover:bg-gray-100">
-          <EllipsisHorizontalIcon class="w-6 h-6 text-[#6B7280]" />
+          <EllipsisHorizontalIcon class="w-6 h-6 text-paragraph" />
         </button>
       </div>
     </div>
     <div>
-      <p class="text-[#141416] md:text-[16px] text-[12px]">
+      <p class="text-gray700 md:text-base text-[12px]">
         {{ content }}
       </p>
     </div>
@@ -34,7 +34,7 @@
         alt="post-img"
       />
       <div
-        class="absolute flex items-center justify-center top-0 bg-lock bottom-0 left-0 right-0 w-full h-full bg-[#FBFBFB]"
+        class="absolute flex items-center justify-center top-0 bg-lock bottom-0 left-0 right-0 w-full h-full bg-primaryBg"
       >
         <button
           class="bg-primary font-semibold px-[48px] py-[13px] rounded-[12px] text-white z-50"
@@ -160,7 +160,7 @@
       <div class="relative flex-1">
         <input
           type="text"
-          class="w-full bg-[#FBFBFB] outline-none focus:ring-2 ring-primary px-[16px] py-[12px] rounded-[12px]"
+          class="w-full bg-primaryBg outline-none focus:ring-2 ring-primary px-[16px] py-[12px] rounded-[12px]"
           placeholder="Your comment..."
         />
         <button class="absolute right-4 top-[14px]">

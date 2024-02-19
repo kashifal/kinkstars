@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-4 border-t flex items-center gap-2 w-full sticky bottom-0 bg-white boder-[#E4E7EC]"
+    class="p-4 border-t flex items-center gap-2 w-full sticky bottom-0 bg-white boder-borderSecondary"
   >
     <div class="flex-1">
       <label for="message" class="sr-only">type your message</label>
@@ -26,7 +26,7 @@
         <input
           id="message"
           name="message"
-          class="block w-full rounded-[12px] bg-[#F7F7F8] py-[16px] px-4 outline-none pr-3 text-gray-900 border border-[#E4E7EC]"
+          class="block w-full rounded-[12px] bg-bgWhite py-[16px] px-4 outline-none pr-3 text-gray-900 border border-borderSecondary"
           placeholder="Type your message ..."
           type="search"
         />
@@ -34,7 +34,7 @@
     </div>
     <div>
       <button
-        class="p-[16px] border text-primary rounded-[12px] border-[#E4E7EC] bg-[#F7F7F8]"
+        class="p-[16px] border text-primary rounded-[12px] border-borderSecondary bg-bgWhite"
       >
         <svg
           width="24"

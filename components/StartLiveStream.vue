@@ -34,14 +34,12 @@
                 class="text-lg font-medium leading-6 text-gray-900"
               >
                 <div class="flex items-center justify-between py-3">
-                  <h2
-                    class="text-[#141416] text-[24px] font-inter font-semibold"
-                  >
+                  <h2 class="text-gray700 text-lx font-inter font-semibold">
                     Start A Stream
                   </h2>
                   <button>
                     <XCircleIcon
-                      class="w-6 h-6 text-[#141416]"
+                      class="w-6 h-6 text-gray700"
                       @click="closeModal"
                     />
                   </button>
@@ -50,23 +48,23 @@
               <form>
                 <div class="py-4 mt-4 space-y-4 border-y">
                   <div class="flex flex-col gap-2">
-                    <label for="description" class="text-[#141416] font-sans"
+                    <label for="description" class="text-gray700 font-sans"
                       >Stream Description</label
                     >
                     <textarea
                       defaultValue="I am going to start a live stream in 30 minutes. Join me and let's have some fun together."
-                      class="h-36 p-4 resize-none rounded-[16px] bg-[#FBFBFB] outline-none"
+                      class="h-36 p-4 resize-none rounded-[16px] bg-primaryBg outline-none"
                       placeholder="Write description..."
                     >
                     </textarea>
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label for="description" class="text-[#141416] font-sans"
+                    <label for="description" class="text-gray700 font-sans"
                       >Price rate per minute</label
                     >
                     <input
                       type="text"
-                      class="px-4 py-2 rounded-[16px] bg-[#FBFBFB] outline-none"
+                      class="px-4 py-2 rounded-[16px] bg-primaryBg outline-none"
                       defaultValue="$ 3"
                       placeholder="Write description..."
                     />
@@ -78,20 +76,18 @@
                   class="flex items-center justify-between w-full px-4 py-2 rounded-[12px] cursor-pointer hover:bg-gray-100 hover:gray-100"
                 >
                   <div class="flex items-center gap-4 font-semibold font-inter">
-                    <LockClosedIcon class="w-5 h-5 text-[#141416]" />
+                    <LockClosedIcon class="w-5 h-5 text-gray700" />
                     <span>Visible to Everyone</span>
                   </div>
                   <button>
-                    <ChevronRightIcon class="w-5 h-5 text-[#141416]" />
+                    <ChevronRightIcon class="w-5 h-5 text-gray700" />
                   </button>
                 </div>
                 <div
                   class="flex items-center justify-between w-full px-4 py-2 rounded-[12px] cursor-pointer hover:bg-gray-100 hover:gray-100"
                 >
                   <div class="flex items-center gap-4 font-semibold font-inter">
-                    <ChatBubbleLeftEllipsisIcon
-                      class="w-5 h-5 text-[#141416]"
-                    />
+                    <ChatBubbleLeftEllipsisIcon class="w-5 h-5 text-gray700" />
                     <span>Allow Comments</span>
                   </div>
                   <Switch
@@ -113,7 +109,7 @@
                   class="flex items-center justify-between w-full px-4 py-2 rounded-[12px] cursor-pointer hover:bg-gray-100 hover:gray-100"
                 >
                   <div class="flex items-center gap-4 font-semibold font-inter">
-                    <LockClosedIcon class="w-5 h-5 text-[#141416]" />
+                    <LockClosedIcon class="w-5 h-5 text-gray700" />
                     <span>Allow others to join</span>
                   </div>
                   <Switch

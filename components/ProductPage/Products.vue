@@ -2,7 +2,7 @@
   <div>
     <div class="flex items-center justify-between w-full pb-10">
       <div class="space-y-2">
-        <h2 class="text-[32px] font-semibold">Similar Products</h2>
+        <h2 class="text-xxl font-semibold">Similar Products</h2>
       </div>
       <div class="flex justify-end gap-4">
         <button @click="slideToPrev" class="">

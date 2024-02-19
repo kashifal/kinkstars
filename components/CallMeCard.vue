@@ -11,20 +11,20 @@
       </div>
       <div>
         <h2
-          class="text-[32px] font-semibold text-[#141416] max-w-xs leading-[1.2] mx-auto"
+          class="text-xxl font-semibold text-gray700 max-w-xs leading-[1.2] mx-auto"
         >
           Want to Video call with me?
         </h2>
       </div>
 
       <div>
-        <span class="text-[#141416]"
-          ><span class="text-[32px] font-semibold">$25</span>
+        <span class="text-gray700"
+          ><span class="text-xxl font-semibold">$25</span>
         </span>
       </div>
       <div class="w-full">
         <button
-          class="w-full px-[24px] py-[13px] rounded-[12px] bg-[#141416] text-white font-semibold"
+          class="w-full px-[24px] py-[13px] rounded-[12px] bg-bgSecondary text-white font-semibold"
         >
           Call Me
         </button>

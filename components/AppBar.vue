@@ -29,7 +29,7 @@
                   </div>
                   <input
                     id="search"
-                    class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-900 bg-[#FBFBFB]"
+                    class="block w-full border-0 outline-none rounded-full py-2 pl-10 pr-3 text-gray-900 bg-primaryBg"
                     placeholder="Search"
                     type="search"
                     name="search"

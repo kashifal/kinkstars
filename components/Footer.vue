@@ -5,7 +5,7 @@
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
           <img class="h-7" :src="logo" alt="Kinkstars" />
-          <p class="text-[16px] leading-6 text-[#6B7280]">
+          <p class="text-base leading-6 text-paragraph">
             actually building an audience is not difficult, as long as you know
             how, and this is an easy step to make it happen
           </p>
@@ -15,28 +15,28 @@
         >
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
+              <h3 class="text-llg font-semibold leading-6 text-gray700">
                 Stores
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.stores" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-[16px] leading-6 text-[#141416]"
+                    class="text-base leading-6 text-gray700"
                     >{{ item.name }}</a
                   >
                 </li>
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
+              <h3 class="text-llg font-semibold leading-6 text-gray700">
                 About
               </h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li v-for="item in navigation.about" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-[16px] leading-6 text-[#141416]"
+                    class="text-base leading-6 text-gray700"
                     >{{ item.name }}</a
                   >
                 </li>
@@ -45,14 +45,14 @@
           </div>
           <div class="col-span-1">
             <div>
-              <h3 class="text-[20px] font-semibold leading-6 text-[#141416]">
+              <h3 class="text-llg font-semibold leading-6 text-gray700">
                 Subscribe
               </h3>
             </div>
             <div class="relative py-4">
               <div className=" py-3 rounded-md">
                 <button
-                  class="absolute rounded-full bg-primary p-2 top-[21px] right-2 flex items-center text-[#141416]"
+                  class="absolute rounded-full bg-primary p-2 top-[21px] right-2 flex items-center text-gray700"
                 >
                   <ArrowRightIcon class="w-5 h-5 text-white" />
                 </button>
@@ -60,13 +60,13 @@
                   type="email"
                   name="email"
                   id="email"
-                  class="block w-full px-4 py-3 text-[16px] rounded-full outline-none border border-gray-500"
+                  class="block w-full px-4 py-3 text-base rounded-full outline-none border border-gray-500"
                   placeholder="Enter your email address"
                 />
               </div>
             </div>
             <div>
-              <p class="text-[16px] text-[#141416]">
+              <p class="text-base text-gray700">
                 By click sign in you, you agree with Stacks
                 <span class="text-primary">terms</span> and
                 <span class="text-primary">policy</span>
@@ -78,10 +78,10 @@
       <div
         class="flex items-center justify-between pt-8 mt-16 border-t border-gray-900/10 sm:mt-20 lg:mt-24"
       >
-        <p class="text-[#6B7280] text-[18px]">@2022 Copyright</p>
+        <p class="text-paragraph text-[18px]">@2022 Copyright</p>
         <div class="flex items-center gap-12">
-          <a class="text-[#6B7280] text-[18px]" href="#">Terms & Condition</a>
-          <a class="text-[#6B7280] text-[18px]" href="#">Privacy Policy</a>
+          <a class="text-paragraph text-[18px]" href="#">Terms & Condition</a>
+          <a class="text-paragraph text-[18px]" href="#">Privacy Policy</a>
         </div>
       </div>
     </div>

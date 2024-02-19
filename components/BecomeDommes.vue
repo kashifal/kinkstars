@@ -6,22 +6,22 @@
         class="object-cover w-full h-full md:w-[40%] md:h-[70%]"
         alt=""
       />
-      <div class="space-y-4 text-[48px] font-semibold">
+      <div class="space-y-4 font-sf text-xxxl font-semibold">
         <div>
-          <h2 class="">
+          <h2 class="font-sf">
             <span>Hello creators, greetings</span>
           </h2>
-          <h2 class="flex items-center max-w-lg gap-2">
+          <h2 class="flex font-sf items-center max-w-lg gap-2">
             form
             <img :src="logo" class="w-auto h-auto" alt="" />
           </h2>
         </div>
-        <p class="text-[18px] text-[#6B7280] font-medium">
+        <p class="text-[18px] text-paragraph font-medium">
           We are an agency that focuses on providing special training to become
           an influencer, starting from finding followers, building a brand,
           creating content, to becoming a great influencer.
         </p>
-        <p class="text-[18px] text-[#6B7280] font-medium">
+        <p class="text-[18px] text-paragraph font-medium">
           We have fostered more than 100+ people and became celebrities on a
           national scale.
         </p>

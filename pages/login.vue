@@ -78,7 +78,7 @@
         <img :src="ornament" class="" alt="kink-stars-logo" />
       </div>
       <div class="space-y-4 text-center">
-        <h2 class="font-semibold text-white text-[24px]">
+        <h2 class="font-semibold text-white text-lx">
           Influencers who is professional in his field
         </h2>
         <p class="max-w-lg text-gray-400">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div
-      class="lg:w-[55%] w-full min-h-screen bg-[#FBFBFB] flex items-center justify-center"
+      class="lg:w-[55%] w-full min-h-screen bg-primaryBg flex items-center justify-center"
     >
       <div
         class="px-12 max-w-2xl w-full py-12 space-y-6 bg-white border rounded-xl"
@@ -99,7 +99,7 @@
           <img :src="logoBlack" class="w-auto h-auto" alt="" />
         </div>
         <div>
-          <h2 class="text-[32px] text-[#374151] font-semibold">
+          <h2 class="text-xxl text-secondary font-semibold">
             Login to <span class="text-primary">Kink</span>Stars
           </h2>
         </div>
@@ -110,7 +110,7 @@
               <input
                 id="email"
                 type="email"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Email address"
               />
             </div>
@@ -119,13 +119,13 @@
               <input
                 id="password"
                 :type="showPassword ? 'text' : 'password'"
-                class="px-[18px] py-[12px] rounded-xl outline-none bg-[#FBFBFB]"
+                class="px-[18px] py-[12px] rounded-xl outline-none bg-primaryBg"
                 placeholder="Password"
               />
               <button
                 @click="changePasswordType"
                 type="button"
-                class="absolute top-12 right-5 text-[#6B7280]"
+                class="absolute top-12 right-5 text-paragraph"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -149,16 +149,16 @@
               </button>
             </div>
             <div class="flex items-center justify-between">
-              <div class="flex items-center gap-2 text-[#6B7280]">
+              <div class="flex items-center gap-2 text-paragraph">
                 <input
-                  class="w-[15px] h-[16px] rounded-lg border-[#E5E9F2] bg-[#FBFBFB]"
+                  class="w-[15px] h-[16px] rounded-lg border-borderPrimary bg-primaryBg"
                   id="remeber-me"
                   type="checkbox"
                 />
                 <label for="remeber-me"> Remember Me </label>
               </div>
               <div>
-                <a href="/reset-password" class="text-[#141416] hover:underline"
+                <a href="/reset-password" class="text-gray700 hover:underline"
                   >Forgot Password</a
                 >
               </div>
@@ -171,13 +171,13 @@
               </button>
             </div>
             <div class="flex items-center justify-center gap-4">
-              <div class="flex-grow border-t border-[#E5E9F2]"></div>
-              <span class="text-[#6B7280]">Or</span>
-              <div class="flex-grow border-t border-[#E5E9F2]"></div>
+              <div class="flex-grow border-t border-borderPrimary"></div>
+              <span class="text-paragraph">Or</span>
+              <div class="flex-grow border-t border-borderPrimary"></div>
             </div>
           </form>
           <div class="flex items-center justify-center gap-4 pt-6">
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -191,7 +191,7 @@
                 />
               </svg>
             </button>
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -229,7 +229,7 @@
                 </defs>
               </svg>
             </button>
-            <button class="p-2 border rounded-full border-[#E5E9F2]">
+            <button class="p-2 border rounded-full border-borderPrimary">
               <svg
                 width="32"
                 height="33"
@@ -262,11 +262,11 @@
           </div>
           <div class="flex items-center justify-center pt-6">
             <div>
-              <p class="text-[#6B7280]">
+              <p class="text-paragraph">
                 Don’t have an account?
                 <a
                   href="/sign-up"
-                  class="text-[#141416] font-semibold hover:underline"
+                  class="text-gray700 font-semibold hover:underline"
                   >Sign Up</a
                 >
               </p>

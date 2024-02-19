@@ -13,7 +13,7 @@
       </div>
       <div class="flex-1 p-2 space-y-4">
         <textarea
-          class="w-full h-20 resize-none placeholder:text-[#6B7280] focus:ring-2 outline-none px-4 py-4 focus:ring-primary rounded-[5px] bg-[#FBFBFB]"
+          class="w-full h-20 resize-none placeholder:text-paragraph focus:ring-2 outline-none px-4 py-4 focus:ring-primary rounded-[5px] bg-primaryBg"
           placeholder="Write something to post"
         ></textarea>
         <div class="flex items-center justify-between">
