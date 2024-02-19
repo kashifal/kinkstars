@@ -23,11 +23,7 @@
             <p class="text-[14px] text-[#172B4D]">Professional Dominatrix</p>
           </div>
         </div>
-        <div>
-          <h2 class="font-semibold text-bluish">Radovan SkillArena</h2>
-          <p class="text-[14px] text-bluish">Professional Dominatrix</p>
-        </div>
-      </div>
+      </a>
       <div
         class="flex items-center gap-4 px-6 py-4 cursor-pointer hover:bg-gray-100"
       >
